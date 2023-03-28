@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+  --brand-color: rgb(184, 228, 239);
+  --second-color: rgb(142, 202, 230);
+  --background-color: rgb(241, 241, 241);
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+}
+
+/*this is a descendant selector, it will target all article elements in the main element*/
+
+main {
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--brand-color);
+}
+
+main article {
+  background-color: var(--second-color);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
