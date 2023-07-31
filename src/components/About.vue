@@ -1,10 +1,17 @@
 <script setup>
-// import bootstrap from "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import * as bootstrap from "bootstrap";
 
-const aboutCarousel = document.querySelector("#about-carousel");
-const carousel = new bootstrap.Carousel(aboutCarousel, {
-  interval: 2000,
-  touch: false,
+import { onMounted } from "vue";
+
+onMounted(() => {
+  const myCarouselElement = document.querySelector("#carouselExample");
+
+  const carousel = new bootstrap.Carousel(myCarouselElement, {
+    interval: 2000,
+  });
+  console.log("Is mounted");
 });
 </script>
 <template>
@@ -35,44 +42,39 @@ const carousel = new bootstrap.Carousel(aboutCarousel, {
       </p>
     </div>
     <div class="container-fluid">
-      <div id="about-carousel" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="..." />
+            <p class="text-center">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
+              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
+              architecto dolore?
+            </p>
           </div>
+
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
+              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
+              architecto dolore?
+            </p>
           </div>
+
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..." />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
+              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
+              architecto dolore?
+            </p>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExample"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -81,7 +83,7 @@ const carousel = new bootstrap.Carousel(aboutCarousel, {
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExample"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -95,4 +97,8 @@ const carousel = new bootstrap.Carousel(aboutCarousel, {
 /* h1 {
   text-align: center;
 } */
+#carouselExample {
+  background-color: hotpink;
+  height: 500px;
+}
 </style>
