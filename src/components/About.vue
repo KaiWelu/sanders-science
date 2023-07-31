@@ -46,7 +46,13 @@ onMounted(() => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h2 class="text-center">Science</h2>
-            <i class="fa-solid fa-dna" style="color: #000000">hallo</i>
+            <!-- <div class="text-center">
+              <font-awesome-icon
+                icon="fa-solid fa-dna"
+                size="2xl"
+                style="color: #000000"
+              />
+            </div> -->
             <p class="text-center carousel-text">
               We push the boundaries of whats known through the developement and
               application of single-cell technologies in translational medicine.
@@ -121,8 +127,13 @@ onMounted(() => {
 }
 
 section {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   padding: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section div {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
