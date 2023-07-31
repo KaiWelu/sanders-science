@@ -42,32 +42,50 @@ onMounted(() => {
       </p>
     </div>
     <div class="container-fluid">
-      <div id="carouselExample" class="carousel slide">
+      <div id="carouselExample" class="carousel carousel-dark slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <p class="text-center">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
-              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
-              architecto dolore?
+            <h2 class="text-center">Science</h2>
+            <i class="fa-solid fa-dna" style="color: #000000">hallo</i>
+            <p class="text-center carousel-text">
+              We push the boundaries of whats known through the developement and
+              application of single-cell technologies in translational medicine.
+              We believe in good scientific practice and enforce open and
+              transparent workflows in all aspects of our work.
             </p>
           </div>
 
           <div class="carousel-item">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
-              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
-              architecto dolore?
+            <h2 class="text-center">Passion</h2>
+            <p class="text-center carousel-text">
+              We love what we do and comprise an interdisciplinary team of
+              highly motivated young scientists from all around the world. While
+              doing great science together is a top priority, it is just as
+              important to us to look after each other and create an inclusive
+              work environment everybody feels welcomed in.
             </p>
           </div>
-
           <div class="carousel-item">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-              atque excepturi consectetur hic. Quae odio vel, nostrum ex porro
-              quod fuga! Maxime deleniti iure, culpa deserunt laboriosam eaque
-              architecto dolore?
+            <h2 class="text-center">Computation</h2>
+            <p class="text-center carousel-text">
+              We enforce transparency and facilitate coorperation by making our
+              pipelines and code publicly available through our github
+              depository. Visit our resource section to learn more about our
+              code depository and usefull links to tutorials to help you get
+              started with your single cell analysis! If you have questions
+              don't hesitate to contact us!
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="text-center">Communication</h2>
+            <p class="text-center carousel-text">
+              Communication inside and outside of the scientific community
+              nowadays is more important than ever with people questioning the
+              scientific method and misinformation on the rise. We aim to
+              contribute to a better society by publishing and discussing our
+              research through scientific journals as well as social media and
+              hope to inspire future generations of scientists. Follow us on our
+              Instagram and Twitter!
             </p>
           </div>
         </div>
@@ -98,7 +116,20 @@ onMounted(() => {
   text-align: center;
 } */
 #carouselExample {
-  background-color: hotpink;
-  height: 500px;
+  /* background-color: lightblue; */
+  /* height: 15rem; */
+}
+
+section {
+  background-color: lightblue;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.carousel-text {
+  font-size: 1.5rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 </style>
