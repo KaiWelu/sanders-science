@@ -11,12 +11,11 @@ onMounted(() => {
   const carousel = new bootstrap.Carousel(myCarouselElement, {
     interval: 2000,
   });
-  console.log("Is mounted");
 });
 </script>
 <template>
   <section>
-    <div class="container-fluid">
+    <div class="container-md">
       <h1 class="text-center">ABOUT OUR LAB</h1>
       <p class="lead text-center">Key features of our laboratory</p>
       <p>
@@ -41,18 +40,11 @@ onMounted(() => {
         contribute to tissue homeostasis and human disease.
       </p>
     </div>
-    <div class="container-fluid">
+    <div class="container-md">
       <div id="carouselExample" class="carousel carousel-dark slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <h2 class="text-center">Science</h2>
-            <!-- <div class="text-center">
-              <font-awesome-icon
-                icon="fa-solid fa-dna"
-                size="2xl"
-                style="color: #000000"
-              />
-            </div> -->
             <p class="text-center carousel-text">
               We push the boundaries of whats known through the developement and
               application of single-cell technologies in translational medicine.
@@ -140,7 +132,7 @@ section div {
 
 .carousel-text {
   font-size: 1.5rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  /* padding-left: 8rem;
+  padding-right: 8rem; */
 }
 </style>
