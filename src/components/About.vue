@@ -16,8 +16,10 @@ onMounted(() => {
 <template>
   <section>
     <div class="container-md">
-      <h1 class="text-center">ABOUT OUR LAB</h1>
-      <p class="lead text-center">Key features of our laboratory</p>
+      <div class="headline-wrapper">
+        <h1 class="text-center">ABOUT OUR LAB</h1>
+        <p class="lead text-center">Key features of our laboratory</p>
+      </div>
       <p>
         During normal development and ageing the cells in our body can acquire
         somatic mutations through diverse genome instability processes. These
