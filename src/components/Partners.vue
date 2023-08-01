@@ -4,7 +4,6 @@
       <div class="headline-wrapper">
         <h1 class="text-center">Partners and Affiliations</h1>
       </div>
-
       <div class="textblock-wrapper">
         <!-- <p class="lead text-center">Single cell goes clinical!</p> -->
         <p>

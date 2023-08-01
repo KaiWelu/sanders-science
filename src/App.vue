@@ -4,6 +4,7 @@ import About from "./components/About.vue";
 import NavBar from "./components/NavBar.vue";
 import TeamView from "./components/TeamView.vue";
 import Partners from "./components/Partners.vue";
+import Contact from "./components/Contact.vue";
 </script>
 
 <template>
@@ -11,4 +12,5 @@ import Partners from "./components/Partners.vue";
   <TeamView></TeamView>
   <About></About>
   <Partners></Partners>
+  <Contact></Contact>
 </template>
