@@ -103,6 +103,7 @@
 
 .std-card-background {
   background-color: aquamarine;
+  opacity: 0.9;
   display: block;
 }
 </style>
