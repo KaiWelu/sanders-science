@@ -1,20 +1,33 @@
 // Import all of Bootstrap's CSS
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  _font-family: "Rubik", sans-serif;
+  _font-family: "Quicksand", sans-serif;
+  font-family: "Oxygen", sans-serif;
+}
+
 .comic-pic {
   height: 5rem;
   width: 5rem;
 }
 
 .headline-wrapper {
-  background-color: rgb(27, 27, 141);
-  color: white;
+  background-color: #1b1b8d;
+  _color: white;
+  color: lightyellow;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 10px;
+  opacity: 0.9;
 }
 
 .textblock-wrapper {
   margin: 1rem;
   font-size: 1.2rem;
+  font-family: "Quicksand", sans-serif;
 }
