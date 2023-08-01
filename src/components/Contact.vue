@@ -11,6 +11,32 @@
             class="contact-icon"
             style="color: #1b1b8d"
           />
+          <div class="adress-wrapper">
+            <p>
+              Berlin Institute for Medical Systems Biology<br />
+              Hannoversche Str. 28 <br />
+              10115 Berlin, Germany
+            </p>
+
+            <p></p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <font-awesome-icon
+            icon="fa-solid fa-envelope"
+            style="color: #1b1b8d"
+            class="contact-icon"
+          />
+          <div class="adress-wrapper"><p>hallo@mdc-berlin.de</p></div>
+        </div>
+
+        <div class="contact-card">
+          <font-awesome-icon
+            icon="fa-solid fa-phone"
+            style="color: #1b1b8d"
+            class="contact-icon"
+          />
+          <div class="adress-wrapper"><p>+49 30 94061593</p></div>
         </div>
       </div>
     </div>
@@ -20,5 +46,22 @@
 <style scoped>
 .contact-icon {
   height: 2rem;
+  width: 2rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 30%;
+}
+
+.contact-card {
+  display: flex;
+  gap: 1rem;
+  background-color: aquamarine;
+  padding: 0.75rem;
+}
+
+.adress-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
 }
 </style>

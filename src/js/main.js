@@ -20,11 +20,15 @@ import {
   faUserSecret,
   faDna,
   faLocationDot,
+  faEnvelope,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(faUserSecret);
 library.add(faDna);
 library.add(faLocationDot);
+library.add(faEnvelope);
+library.add(faPhone);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
