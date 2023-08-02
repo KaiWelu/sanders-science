@@ -46,6 +46,22 @@ onMounted(() => {
       </div>
     </div>
     <div class="container-md">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <p class="card-title">
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Science</h2></div>            
+          </p>
+          <p class="card-text text-center">
+            We push the boundaries of whats known through the developement and
+            application of single-cell technologies in translational medicine.
+            We believe in good scientific practice and enforce open and
+            transparent workflows in all aspects of our work.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md">
       <div id="carouselExample" class="carousel carousel-dark slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -115,29 +131,32 @@ onMounted(() => {
   </section>
 </template>
 <style scoped>
-/* h1 {
-  text-align: center;
-} */
-#carouselExample {
-  /* background-color: lightblue; */
-  /* height: 15rem; */
+.card {
+  background-color: rgb(161, 250, 235);
+  opacity: 0.9;
+  border: none;
+  box-sizing: border-box;
 }
 
-section {
-  /* background-color: lightblue; */
-  padding: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.card:hover {
+  border: 2px solid blue;
+}
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-section div {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.card-icon {
+  height: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #1b618d;
 }
 
-.carousel-text {
-  font-size: 1.5rem;
-  /* padding-left: 8rem;
-  padding-right: 8rem; */
+h2 {
+  font-size: 2.5rem;
+  color: #1b618d;
 }
 </style>
