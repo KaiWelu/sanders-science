@@ -17,10 +17,10 @@ onMounted(() => {
   <section>
     <div class="container-md">
       <div class="headline-wrapper">
-        <h1 class="text-center">ABOUT OUR LAB</h1>
-        <p class="lead text-center">Key features of our laboratory</p>
+        <h1 class="text-center">About our Lab</h1>
+        <p class="lead text-center"><i>Key features of our laboratory</i></p>
       </div>
-      <div class="textblock-wrapper">
+      <div class="textblock-wrapper">        
         <p>
           During normal development and ageing the cells in our body can acquire
           somatic mutations through diverse genome instability processes. These
@@ -46,98 +46,108 @@ onMounted(() => {
       </div>
     </div>
     <div class="container-md">
-      <div id="carouselExample" class="carousel carousel-dark slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2 class="text-center">Science</h2>
-            <p class="text-center carousel-text">
-              We push the boundaries of whats known through the developement and
-              application of single-cell technologies in translational medicine.
-              We believe in good scientific practice and enforce open and
-              transparent workflows in all aspects of our work.
-            </p>
-          </div>
-
-          <div class="carousel-item">
-            <h2 class="text-center">Passion</h2>
-            <p class="text-center carousel-text">
-              We love what we do and comprise an interdisciplinary team of
+      <div class="row justify-content-center gap-5">
+        <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="card-body">
+          <p class="card-title">
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Science</h2></div>            
+          </p>
+          <p class="card-text">
+            We push the boundaries of whats known through the developement and
+            application of single-cell technologies in translational medicine.
+            We believe in good scientific practice and enforce open and
+            transparent workflows in all aspects of our work.
+          </p>
+        </div>
+      </div></div>
+      <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="card-body">
+          <p class="card-title">
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-heart" class="card-icon"/><h2 style="margin-bottom: 0rem;">Passion</h2></div>            
+          </p>
+          <p class="card-text">
+            We love what we do and comprise an interdisciplinary team of
               highly motivated young scientists from all around the world. While
               doing great science together is a top priority, it is just as
               important to us to look after each other and create an inclusive
               work environment everybody feels welcomed in.
-            </p>
-          </div>
-          <div class="carousel-item">
-            <h2 class="text-center">Computation</h2>
-            <p class="text-center carousel-text">
-              We enforce transparency and facilitate coorperation by making our
-              pipelines and code publicly available through our github
-              depository. Visit our resource section to learn more about our
-              code depository and usefull links to tutorials to help you get
-              started with your single cell analysis! If you have questions
-              don't hesitate to contact us!
-            </p>
-          </div>
-          <div class="carousel-item">
-            <h2 class="text-center">Communication</h2>
-            <p class="text-center carousel-text">
-              Communication inside and outside of the scientific community
+          </p>
+        </div>
+      </div></div>  
+      <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="card-body">
+          <p class="card-title">
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-bullhorn" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Communication</h2></div>            
+          </p>
+          <p class="card-text">
+            Communication inside and outside of the scientific community
               nowadays is more important than ever with people questioning the
               scientific method and misinformation on the rise. We aim to
               contribute to a better society by publishing and discussing our
               research through scientific journals as well as social media and
               hope to inspire future generations of scientists. Follow us on our
               Instagram and Twitter!
-            </p>
-          </div>
+          </p>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      </div></div>
+        <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="card-body">
+          <p class="card-title">
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-microchip" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
+          </p>
+          <p class="card-text">
+            We enforce transparency and facilitate coorperation by making our
+              pipelines and code publicly available through our github
+              depository. Visit our resource section to learn more about our
+              code depository and usefull links to tutorials to help you get
+              started with your single cell analysis! If you have questions
+              don't hesitate to contact us!
+          </p>
+        </div>
       </div>
     </div>
+    
+            
+      </div>          
+      </div>
+
   </section>
 </template>
 <style scoped>
-/* h1 {
-  text-align: center;
-} */
-#carouselExample {
-  /* background-color: lightblue; */
-  /* height: 15rem; */
+.card {
+  background-color: rgb(161, 250, 235);
+  opacity: 0.9;
+  border: none;
+  box-sizing: border-box;
+  _box-shadow: 5px 5px #1b618d;
+  height: 100%;
+  width: 100%;
+  _padding: 0.2rem;
 }
 
-section {
-  /* background-color: lightblue; */
-  padding: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.card:hover {
+  background-color: aquamarine;
+}
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-section div {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.card-icon {
+  height: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #1b618d;
 }
 
-.carousel-text {
-  font-size: 1.5rem;
-  /* padding-left: 8rem;
-  padding-right: 8rem; */
+.card-text {
+  padding: 0.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #1b618d;
 }
 </style>
