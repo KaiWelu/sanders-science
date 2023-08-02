@@ -45,9 +45,9 @@ onMounted(() => {
         </p>
       </div>
     </div>
-    <div class="container-md d-grid gap-5">
-      <div class="row">
-        <div class="col"><div class="card">
+    <div class="container-md">
+      <div class="row justify-content-center gap-5">
+        <div class="col-lg-5" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Science</h2></div>            
@@ -60,25 +60,21 @@ onMounted(() => {
           </p>
         </div>
       </div></div>
-        <div class="col"><div class="card">
+      <div class="col-lg-5" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
-            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-code" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-heart" class="card-icon"/><h2 style="margin-bottom: 0rem;">Passion</h2></div>            
           </p>
           <p class="card-text">
-            We enforce transparency and facilitate coorperation by making our
-              pipelines and code publicly available through our github
-              depository. Visit our resource section to learn more about our
-              code depository and usefull links to tutorials to help you get
-              started with your single cell analysis! If you have questions
-              don't hesitate to contact us!
+            We love what we do and comprise an interdisciplinary team of
+              highly motivated young scientists from all around the world. While
+              doing great science together is a top priority, it is just as
+              important to us to look after each other and create an inclusive
+              work environment everybody feels welcomed in.
           </p>
         </div>
-      </div></div>      
-        
-      </div>    
-      <div class="row">
-        <div class="col"><div class="card">
+      </div></div>  
+      <div class="col-lg-5" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-bullhorn" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Communication</h2></div>            
@@ -94,21 +90,25 @@ onMounted(() => {
           </p>
         </div>
       </div></div>
-      <div class="col"><div class="card">
+        <div class="col-lg-5" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
-            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-heart" class="card-icon"/><h2 style="margin-bottom: 0rem;">Passion</h2></div>            
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-microchip" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
           </p>
           <p class="card-text">
-            We love what we do and comprise an interdisciplinary team of
-              highly motivated young scientists from all around the world. While
-              doing great science together is a top priority, it is just as
-              important to us to look after each other and create an inclusive
-              work environment everybody feels welcomed in.
+            We enforce transparency and facilitate coorperation by making our
+              pipelines and code publicly available through our github
+              depository. Visit our resource section to learn more about our
+              code depository and usefull links to tutorials to help you get
+              started with your single cell analysis! If you have questions
+              don't hesitate to contact us!
           </p>
         </div>
-      </div></div>
       </div>
+    </div>
+    
+            
+      </div>          
       </div>
 
   </section>
@@ -122,7 +122,7 @@ onMounted(() => {
   _box-shadow: 5px 5px #1b618d;
   height: 100%;
   width: 100%;
-  padding: 0.2rem;
+  _padding: 0.2rem;
 }
 
 .card:hover {
