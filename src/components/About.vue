@@ -63,7 +63,7 @@ onMounted(() => {
         <div class="col"><div class="card">
         <div class="card-body">
           <p class="card-title">
-            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-code" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
           </p>
           <p class="card-text">
             We enforce transparency and facilitate coorperation by making our
@@ -81,7 +81,7 @@ onMounted(() => {
         <div class="col"><div class="card">
         <div class="card-body">
           <p class="card-title">
-            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Communication</h2></div>            
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-bullhorn" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Communication</h2></div>            
           </p>
           <p class="card-text">
             Communication inside and outside of the scientific community
@@ -97,7 +97,7 @@ onMounted(() => {
       <div class="col"><div class="card">
         <div class="card-body">
           <p class="card-title">
-            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Passion</h2></div>            
+            <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-heart" class="card-icon"/><h2 style="margin-bottom: 0rem;">Passion</h2></div>            
           </p>
           <p class="card-text">
             We love what we do and comprise an interdisciplinary team of

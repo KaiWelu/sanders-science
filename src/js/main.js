@@ -22,6 +22,9 @@ import {
   faLocationDot,
   faEnvelope,
   faPhone,
+  faHeart,
+  faCode,
+  faBullhorn,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
@@ -31,11 +34,16 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
-library.add(faUserSecret);
-library.add(faDna);
-library.add(faLocationDot);
-library.add(faEnvelope);
-library.add(faPhone);
+library.add(
+  faPhone,
+  faHeart,
+  faCode,
+  faBullhorn,
+  faEnvelope,
+  faLocationDot,
+  faDna,
+  faUserSecret
+);
 library.add(faInstagram, faTwitter, faGithub, faResearchgate);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
