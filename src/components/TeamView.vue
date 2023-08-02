@@ -1,6 +1,6 @@
 <template>
   <div class="container-md">
-    <h1>Team</h1>
+    <h1 class="headline-wrapper text-center">Team</h1>
     <div class="accordion accordion-flush" id="accordionFlushExample">
       <div class="accordion-item">
         <h2 class="accordion-header">

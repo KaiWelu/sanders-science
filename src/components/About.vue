@@ -17,8 +17,8 @@ onMounted(() => {
   <section>
     <div class="container-md">
       <div class="headline-wrapper">
-        <h1 class="text-center">About our Lab</h1>
-        <p class="lead text-center"><i>Key features of our laboratory</i></p>
+        <h1 class="">About our Lab</h1>
+        <p class="lead"><i>Key features of our laboratory</i></p>
       </div>
       <div class="textblock-wrapper">        
         <p>
@@ -119,7 +119,7 @@ onMounted(() => {
   opacity: 0.9;
   border: none;
   box-sizing: border-box;
-  _box-shadow: 5px 5px #1b618d;
+  box-shadow: 3px 3px #1b618d;
   height: 100%;
   width: 100%;
   _padding: 0.2rem;

@@ -19,21 +19,33 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
+.navbar {
+  _background-color: rgb(161, 250, 235);
+  background-color: white;
+  _box-shadow: 1px 1px 1px lightgray;
+  _border-bottom: 2px solid #1b618d;
+}
+
+.navbar-brand {
+}
+
 .comic-pic {
   height: 5rem;
   width: 5rem;
 }
 
 .headline-wrapper {
-  background-color: #1b618d;
-  _color: white;
-  color: rgb(221, 241, 243);
+  _background-color: #1b618d;
+  color: #1b618d;
+  _color: rgb(221, 241, 243);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-radius: 5px;
+  padding-left: 0.5rem;
+  _border-radius: 5px;
   opacity: 0.9;
   margin-bottom: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  border-bottom: solid lightblue 2px;
 }
 
 .textblock-wrapper {
