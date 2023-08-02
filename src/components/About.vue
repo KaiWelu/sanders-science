@@ -136,10 +136,11 @@ onMounted(() => {
   opacity: 0.9;
   border: none;
   box-sizing: border-box;
+  box-shadow: 5px 5px #1b618d;
 }
 
 .card:hover {
-  border: 2px solid blue;
+  background-color: aquamarine;
 }
 .card-title-wrapper {
   display: flex;
