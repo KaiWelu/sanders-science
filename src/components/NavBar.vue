@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand">The Sanders Lab</a>
       <ul class="navbar-nav">
