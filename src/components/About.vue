@@ -17,7 +17,7 @@ onMounted(() => {
   <section>
     <div class="container-md">
       <div class="headline-wrapper">
-        <h1 class="">About our Lab</h1>
+        <h1>About our Lab</h1>
         <p class="lead"><i>Key features of our laboratory</i></p>
       </div>
       <div class="textblock-wrapper">        

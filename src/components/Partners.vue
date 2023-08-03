@@ -2,7 +2,8 @@
   <section>
     <div class="container-md">
       <div class="headline-wrapper">
-        <h1 class="text-center">Partners and Affiliations</h1>
+        <h1>Partners and Affiliations</h1>
+        <p class="lead"><i>Single cell goes clinical!</i></p>
       </div>
       <div class="textblock-wrapper">
         <!-- <p class="lead text-center">Single cell goes clinical!</p> -->
