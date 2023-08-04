@@ -31,6 +31,7 @@
   height: 100%;
 }
 p {
-  color: #ddf1f3;
+  _color: #ddf1f3;
+  color: white;
 }
 </style>
