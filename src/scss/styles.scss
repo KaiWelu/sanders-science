@@ -34,7 +34,7 @@ p {
 .headline-wrapper {
   _background-color: #1b618d;
   color: #1b618d;
-  _color: rgb(221, 241, 243);
+  _color: #ddf1f3;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
@@ -51,4 +51,8 @@ p {
   margin-bottom: 3rem;
   font-size: 1.2rem;
   font-family: "Quicksand", sans-serif;
+}
+
+#app {
+  background-color: white;
 }
