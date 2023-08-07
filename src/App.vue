@@ -6,6 +6,7 @@ import TeamView from "./components/TeamView.vue";
 import Partners from "./components/Partners.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
+import Publications from "./components/Publications.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Footer from "./components/Footer.vue";
   <TeamView></TeamView>
   <About></About>
   <Partners></Partners>
+  <Publications></Publications>
   <Contact></Contact>
   <Footer></Footer>
 </template>

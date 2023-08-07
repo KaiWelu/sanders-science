@@ -34,7 +34,7 @@
                   <a href="#" class="nav-link">Resources</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">Publications</a>
+                  <a href="#publications" class="nav-link">Publications</a>
                 </li>
                 <li class="nav-item">
                   <a href="#contact" class="nav-link">Contact</a>
