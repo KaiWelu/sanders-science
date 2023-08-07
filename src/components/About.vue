@@ -115,7 +115,7 @@
 
 .card:hover {
   _background-color: aquamarine;
-  background-color: rgb(161, 250, 235);
+  _background-color: rgb(161, 250, 235);
 }
 .card-title-wrapper {
   display: flex;
