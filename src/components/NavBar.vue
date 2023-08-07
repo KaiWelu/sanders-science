@@ -11,38 +11,71 @@
       />
       The Sanders Lab</a
     >
-    <div class="collapse navbar-collapse" id="navbar-nav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Publications</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="#" class="nav-link"
-            ><font-awesome-icon icon="fa-brands fa-instagram" class="nav-icon"
-          /></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"
-            ><font-awesome-icon icon="fa-brands fa-twitter" class="nav-icon"
-          /></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"
-            ><font-awesome-icon icon="fa-brands fa-github" class="nav-icon"
-          /></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"
-            ><font-awesome-icon
-              icon="fa-brands fa-researchgate"
-              class="nav-icon"
-          /></a>
-        </li>
-      </ul>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col">
+            <ul class="navbar-nav justify-content-start">
+              <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Publications</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="navbar-nav justify-content-end">
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-instagram"
+                    class="nav-icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-twitter"
+                    class="nav-icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-github"
+                    class="nav-icon"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-researchgate"
+                    class="nav-icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </template>

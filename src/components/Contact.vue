@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container-md">
+    <div class="container-md" id="contact">
       <div class="headline-wrapper">
         <h1 class="text-center">Contact</h1>
       </div>

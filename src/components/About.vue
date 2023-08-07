@@ -1,21 +1,8 @@
 <script setup>
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import * as bootstrap from "bootstrap";
-
-import { onMounted } from "vue";
-
-onMounted(() => {
-  const myCarouselElement = document.querySelector("#carouselExample");
-
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-    interval: 2000,
-  });
-});
 </script>
 <template>
   <section>
-    <div class="container-md">
+    <div class="container-md" id="about">
       <div class="headline-wrapper">
         <h1>About our Lab</h1>
         <p class="lead"><i>Key features of our laboratory</i></p>
