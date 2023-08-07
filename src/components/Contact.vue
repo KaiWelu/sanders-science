@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container-md">
+    <div class="container-md" id="contact">
       <div class="headline-wrapper">
         <h1 class="text-center">Contact</h1>
       </div>
@@ -42,7 +42,6 @@
           <div class="contact-card">
             <font-awesome-icon
               icon="fa-brands fa-instagram"
-              style="color: #1b1b8d"
               class="contact-icon"
             />
             <div class="adress-wrapper"><p>Instagram</p></div>

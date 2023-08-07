@@ -1,21 +1,8 @@
 <script setup>
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
-import * as bootstrap from "bootstrap";
-
-import { onMounted } from "vue";
-
-onMounted(() => {
-  const myCarouselElement = document.querySelector("#carouselExample");
-
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-    interval: 2000,
-  });
-});
 </script>
 <template>
   <section>
-    <div class="container-md">
+    <div class="container-md" id="about">
       <div class="headline-wrapper">
         <h1>About our Lab</h1>
         <p class="lead"><i>Key features of our laboratory</i></p>
@@ -115,7 +102,8 @@ onMounted(() => {
 </template>
 <style scoped>
 .card {
-  background-color: rgb(161, 250, 235);
+  _background-color: rgb(161, 250, 235);
+  background-color: #a1faebbc;
   opacity: 0.9;
   border: none;
   box-sizing: border-box;
@@ -126,7 +114,8 @@ onMounted(() => {
 }
 
 .card:hover {
-  background-color: aquamarine;
+  _background-color: aquamarine;
+  _background-color: rgb(161, 250, 235);
 }
 .card-title-wrapper {
   display: flex;
