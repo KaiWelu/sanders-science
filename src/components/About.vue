@@ -102,7 +102,8 @@
 </template>
 <style scoped>
 .card {
-  background-color: rgb(161, 250, 235);
+  _background-color: rgb(161, 250, 235);
+  background-color: #a1faebbc;
   opacity: 0.9;
   border: none;
   box-sizing: border-box;
@@ -113,7 +114,8 @@
 }
 
 .card:hover {
-  background-color: aquamarine;
+  _background-color: aquamarine;
+  background-color: rgb(161, 250, 235);
 }
 .card-title-wrapper {
   display: flex;
