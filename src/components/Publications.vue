@@ -103,7 +103,7 @@ h2 {
   background-color: white;
   _color: #1b618d;
   _border: 1px solid #1b618d;
-  box-shadow: none;
+  _box-shadow: none;
 }
 
 button {
