@@ -1,20 +1,19 @@
 <template>
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand">The Sanders Lab</a>
-      <ul class="navbar-nav">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Team</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Publications</a>
-          </li>
-          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-        </div>
-      </ul>
-    </div>
+  <nav class="navbar sticky-top shadow-sm p-3 mb-5 bg-body rounded">
+    <span class="navbar-brand mb-0 h1"
+      ><img
+        src="../assets/img/logostrandseq.png"
+        id="navbar-logo"
+        alt="sanders logo"
+      />
+      The Sanders Lab</span
+    >
   </nav>
 </template>
+
+<style scoped>
+#navbar-logo {
+  height: 2rem;
+  _padding: 0.5rem;
+}
+</style>
