@@ -42,7 +42,6 @@
           <div class="contact-card">
             <font-awesome-icon
               icon="fa-brands fa-instagram"
-              style="color: #1b1b8d"
               class="contact-icon"
             />
             <div class="adress-wrapper"><p>Instagram</p></div>
