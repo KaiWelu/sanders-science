@@ -5,7 +5,7 @@
         <h1>Publications</h1>
         <p class="lead"><i>Explore our peer-reviewed research projects</i></p>
       </div>
-      <div class="container-fluid gap-1">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-auto col-md-6 pub-card">
             <div class="container-fluid">
@@ -80,6 +80,11 @@
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col text-center pub-card">
+            <button id="read-all">Read all Publications</button>
+          </div>
+        </div>
       </div>
     </section>
   </div>
@@ -104,5 +109,13 @@ button {
 .pub-card {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  _background-color: aqua;
+}
+
+#read-all {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border: none;
 }
 </style>
