@@ -67,7 +67,7 @@ p {
 
 // this is for the cards in the about section
 .card {
-  _background-color: rgb(161, 250, 235);
+  _background-color: #a1faeb;
   background-color: $card-bg;
   opacity: 0.9;
   border: none;
@@ -99,3 +99,7 @@ p {
 .nav-icon {
   height: 1.5rem;
 }
+
+//team view
+
+$accordion-button-focus-box-shadow: 0 0 0 0.25rem brown;
