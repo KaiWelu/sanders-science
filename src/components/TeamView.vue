@@ -17,11 +17,11 @@ function toggleImg() {
         <div class="accordion-item">
           <div class="accordion-header" id="headingOne">
             <button
-              class="accordion-button"
+              class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseOne"
-              aria-expanded="true"
+              aria-expanded="false"
               aria-controls="collapseOne"
               @click="toggleImg()"
             >
@@ -83,17 +83,7 @@ function toggleImg() {
                 /></a>
                 <a href="#" class="p-2"
                   ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
+                    icon="fa-brands fa-orcid"
                     class="team-contact-icon"
                 /></a>
               </p>
@@ -101,64 +91,217 @@ function toggleImg() {
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
+          <div class="accordion-header" id="heading-two">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
+              data-bs-target="#collapse-two"
               aria-expanded="false"
-              aria-controls="collapseTwo"
+              aria-controls="collapse-two"
+              @click="toggleImg()"
             >
-              Accordion Item #2
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      v-if="showComicImg"
+                      class="comic-pic"
+                      src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=Brown&facialHairType=BeardLight&facialHairColor=Brown&clotheType=ShirtVNeck&clotheColor=Heather&eyeType=Squint&eyebrowType=UpDownNatural&mouthType=Tongue&skinColor=Pale"
+                    />
+                    <img
+                      v-else
+                      src="https://www.sanders.science/oliver.jpeg"
+                      class="img-fluid real-pic"
+                      alt="Ashley Sanders"
+                    />
+                  </div>
+                  <div class="col-auto pt-2">
+                    <h3 class="mb-0">Oliver Dyck Dionisi</h3>
+                    <p class="text-body-secondary mb-0">Technical Assistant</p>
+                  </div>
+                </div>
+              </div>
             </button>
-          </h2>
+          </div>
           <div
-            id="collapseTwo"
+            id="collapse-two"
             class="accordion-collapse collapse"
-            aria-labelledby="headingTwo"
+            aria-labelledby="heading-two"
             data-bs-parent="#accordion-team"
           >
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <h3 class="text-center mt-2 mb-3">Technical Assistant</h3>
+              <p>
+                General lab manager and hands-on work, supporting the single
+                cell research area. Happy research!
+              </p>
+              <p class="text-center">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-linkedin"
+                    class="team-contact-icon"
+                /></a>
+              </p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
+          <div class="accordion-header" id="heading-three">
             <button
               class="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
+              data-bs-target="#collapse-three"
               aria-expanded="false"
-              aria-controls="collapseThree"
+              aria-controls="collapse-three"
+              @click="toggleImg()"
             >
-              Accordion Item #3
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      v-if="showComicImg"
+                      class="comic-pic"
+                      src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Brown&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=WinkWacky&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Light"
+                    />
+                    <img
+                      v-else
+                      src="https://www.sanders.science/martina1.png"
+                      class="img-fluid real-pic"
+                      alt="Ashley Sanders"
+                    />
+                  </div>
+                  <div class="col-auto pt-2">
+                    <h3 class="mb-0">Martina Macino</h3>
+                    <p class="text-body-secondary mb-0">PhD Student</p>
+                  </div>
+                </div>
+              </div>
             </button>
-          </h2>
+          </div>
           <div
-            id="collapseThree"
+            id="collapse-three"
             class="accordion-collapse collapse"
-            aria-labelledby="headingThree"
+            aria-labelledby="heading-three"
             data-bs-parent="#accordion-team"
           >
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <h3 class="text-center mt-2 mb-3">
+                Mutational Burden and Somatic Mosaicism in Health and Disease
+              </h3>
+              <p>
+                I’m a new PhD student and my research interest is in Molecular
+                Biology, Cellular Biology and in particular in the deviation of
+                Cellular Mechanisms from healthy to disease. I’m currently
+                looking at Somatic Mosaicism and Genomic Mutations at a
+                single-cell level in autoinflammatory disease, in collaboration
+                with clinicians. Happy research!
+              </p>
+              <p class="text-center">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-researchgate"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" id="heading-four">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapse-four"
+              aria-expanded="false"
+              aria-controls="collapse-four"
+              @click="toggleImg()"
+            >
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img
+                      v-if="showComicImg"
+                      class="comic-pic"
+                      src="https://avataaars.io/?avatarStyle=Circle&topType=NoHair&accessoriesType=Blank&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=GraphicShirt&clotheColor=Heather&graphicType=Deer&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                    />
+                    <img
+                      v-else
+                      src="https://www.sanders.science/kiwi.png"
+                      class="img-fluid real-pic"
+                      alt="Ashley Sanders"
+                    />
+                  </div>
+                  <div class="col-auto pt-2">
+                    <h3 class="mb-0">Patrick Weidner</h3>
+                    <p class="text-body-secondary mb-0">PhD Student</p>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+          <div
+            id="collapse-four"
+            class="accordion-collapse collapse"
+            aria-labelledby="heading-four"
+            data-bs-parent="#accordion-team"
+          >
+            <div class="accordion-body">
+              <h3 class="text-center mt-2 mb-3">Somatic Mosaicism in IBD</h3>
+              <p>
+                Hi there! I'm a young scientist with a general interest in
+                Molecular Biology, Genetics and Autoimmunity. I recently joined
+                the Sanders Lab at the Max-Delbrück-Center for Molecular
+                Medicine (MDC) at the Berlin Institute for Medical Systems
+                Biology (BIMSB) as a PhD student in the "Single cell approaches
+                for personalized medicine" focus group. I investigate how
+                somatic mosaicism contributes to tissue homeostasis and human
+                disease. Happy research!
+              </p>
+              <p class="text-center">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-linkedin"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-researchgate"
+                    class="team-contact-icon"
+                /></a>
+              </p>
             </div>
           </div>
         </div>
@@ -187,7 +330,8 @@ function toggleImg() {
 
 .real-pic {
   border-radius: 50%;
-  height: 6rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .collapse-img {
@@ -202,7 +346,7 @@ function toggleImg() {
 }
 
 .accordion {
-  --bs-accordion-active-bg: #bcf6efa1;
+  --bs-accordion-active-bg: #5bb8f24d;
 }
 
 .accordion-button:focus {
@@ -213,8 +357,7 @@ function toggleImg() {
 }
 .team-contact-icon {
   height: 2rem;
-  padding: 0.2rem;
-  margin: 0.5rem;
+  margin: 0.2rem;
   color: #2588c5ed;
 }
 .team-contact-icon:hover {

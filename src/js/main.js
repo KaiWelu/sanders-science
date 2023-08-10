@@ -32,6 +32,8 @@ import {
   faTwitter,
   faGithub,
   faResearchgate,
+  faOrcid,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
@@ -46,6 +48,13 @@ library.add(
   faUserSecret,
   faMicrochip
 );
-library.add(faInstagram, faTwitter, faGithub, faResearchgate);
+library.add(
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faResearchgate,
+  faOrcid,
+  faLinkedin
+);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
