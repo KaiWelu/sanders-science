@@ -18,13 +18,14 @@ html {
 }
 
 h1 {
-  _font-family: "Rubik", sans-serif;
+  font-family: "Rubik", sans-serif;
   _font-family: "Quicksand", sans-serif;
-  font-family: "Oxygen", sans-serif;
+  _font-family: "Oxygen", sans-serif;
+  _font-family: "Prompt", sans-serif !important;
 }
 
 p {
-  font-family: "Quicksand", sans-serif;
+  _font-family: "Quicksand", sans-serif;
 }
 
 .navbar {
@@ -40,18 +41,20 @@ p {
 }
 
 .headline-wrapper {
-  _background-color: #79c4f2;
-  color: #1b618d;
-  _color: #ddf1f3;
+  _background-color: #7ae282;
+  _background-color: rgb(244, 249, 241);
+  color: #183153;
+  _color: rgb(20, 112, 141);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.5rem;
-  _border-radius: 5px;
-  opacity: 0.9;
+  _border-radius: 10px;
+  _border-bottom-right-radius: 5px;
+  _opacity: 0.9;
   margin-bottom: 0.5rem;
-  margin-top: 5rem;
-  border-bottom: solid lightblue 2px;
+  _border: solid rgb(18, 167, 216) 2px;
   _box-shadow: 4px 4px #1b618d;
+  _font-family: "Rubik", sans-serif;
 }
 
 .textblock-wrapper {
@@ -60,6 +63,7 @@ p {
   margin-bottom: 3rem;
   font-size: 1.2rem;
   font-family: "Quicksand", sans-serif;
+  color: #183153;
 }
 
 #app {
