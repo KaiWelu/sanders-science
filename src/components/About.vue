@@ -4,8 +4,8 @@
   <section>
     <div class="container-md" id="about">
       <div class="headline-wrapper">
-        <h1>About our Lab</h1>
-        <p class="lead"><i>Key features of our laboratory</i></p>
+        <h1 class="text-center">About our Lab</h1>
+        <p class="lead text-center"><i>Key features of our laboratory</i></p>
       </div>
       <div class="textblock-wrapper">        
         <p>
@@ -138,5 +138,12 @@
 h2 {
   font-size: 2.5rem;
   color: #1b618d;
+}
+
+section {
+  _background-color: #d7fbc4;
+  background-color: rgb(99 230 190);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 </style>
