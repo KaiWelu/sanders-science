@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid sticky-top">
-    <nav class="navbar navbar-expand-lg shadow-sm p-3 mb-5 rounded">
+  <div class="container-fluid sticky-top p-0">
+    <nav class="navbar navbar-expand-lg shadow-sm p-3">
       <a href="#" class="navbar-brand mb-0 align-items-center"
         ><img
           src="../assets/img/logostrandseq-alt.png"
@@ -112,10 +112,6 @@
 
 #navbar-logo {
   height: 2rem;
-}
-
-.nav-icon {
-  height: 1.5rem;
 }
 
 .navbar-brand {
