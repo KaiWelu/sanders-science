@@ -1,6 +1,6 @@
 <template>
-  <div class="container-fluid sticky-top">
-    <nav class="navbar navbar-expand-lg shadow-sm p-3 mb-5 rounded">
+  <div class="container-fluid sticky-top p-0">
+    <nav class="navbar navbar-expand-lg shadow-sm p-3">
       <a href="#" class="navbar-brand mb-0 align-items-center"
         ><img
           src="../assets/img/logostrandseq-alt.png"
@@ -103,23 +103,19 @@
 }
 
 .navbar {
-  background-color: #1b618d;
+  _background-color: #1b618d;
 }
 
 .nav-link {
-  color: white !important;
+  _color: white !important;
 }
 
 #navbar-logo {
   height: 2rem;
 }
 
-.nav-icon {
-  height: 1.5rem;
-}
-
 .navbar-brand {
-  color: white;
+  _color: white;
 }
 
 a:hover {

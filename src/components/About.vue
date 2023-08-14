@@ -141,9 +141,9 @@ h2 {
 }
 
 section {
-  _background-color: #d7fbc4;
-  background-color: rgb(99 230 190);
+  background-color: #06D6A0;
+  _background-color: rgb(99 230 190);
   padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+  padding-bottom: 2rem;  
+  }
 </style>

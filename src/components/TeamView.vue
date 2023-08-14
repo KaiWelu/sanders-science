@@ -9,7 +9,7 @@ function toggleImg() {
 <template>
   <section>
     <div class="container-md">
-      <div class="headline-wrapper">
+      <div class="headline-wrapper text-center">
         <h1>Team</h1>
         <p class="lead"><i>The ones who run this laboratory</i></p>
       </div>
@@ -319,6 +319,7 @@ function toggleImg() {
 .accordion-item {
   border: none;
 }
+
 .icon-wrapper {
   position: absolute;
   top: 5.5rem;
@@ -347,7 +348,8 @@ function toggleImg() {
   height: 50%;
 }
 .accordion-body {
-  _background-color: #5bf0d7;
+  background-color: rgb(20 110 190);
+  color: white;
 }
 
 .accordion {
@@ -367,5 +369,9 @@ function toggleImg() {
 }
 .team-contact-icon:hover {
   color: #1b618d98;
+}
+
+section {
+  background-color: #ffd166;
 }
 </style>
