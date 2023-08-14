@@ -1,7 +1,7 @@
 <template>
-  <section>
-    <div class="container-md">
-      <div class="headline-wrapper">
+  <section class="mb-5">
+    <div class="container-md pt-5 pb-5">
+      <div class="headline-wrapper text-center">
         <h1>Partners and Affiliations</h1>
         <p class="lead"><i>Single cell goes clinical!</i></p>
       </div>
@@ -39,7 +39,7 @@
         </p>
       </div>
     </div>
-    <div class="container-md" id="partner-img-wrapper">
+    <div class="container-md p-5 mb-5" id="partner-img-wrapper">
       <img
         src="https://www.sanders.science/affiliationsquare.png"
         class="img-fluid"
@@ -55,13 +55,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffd166;
+  border-radius: 5px;
+  margin-bottom: 5rem;
 }
 #partner-img {
-  margin: 1.5rem;
+  margin: 0.5rem;
+}
+.headline-wrapper {
+  color: white;
+}
+
+.textblock-wrapper {
+  color: white;
+}
+a {
+  color: #ffd166;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 section {
   background-color: #118ab2;
-  color: white;
 }
 </style>

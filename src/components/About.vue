@@ -103,15 +103,16 @@
 <style scoped>
 .card {
   _background-color: rgb(161, 250, 235);
-  background-color: #118AB2;
-  opacity: 0.9;
+  background-color: #05b485e2;
+  _opacity: 0.9;
   border: none;
   box-sizing: border-box;
   _box-shadow: 3px 3px #059a72;
   height: 100%;
   width: 100%;
   _padding: 0.2rem;
-  color: #f9fed9;
+  _color: #f9fed9;
+  color: white;
 }
 
 .card:hover {
@@ -126,10 +127,10 @@
 
 .card-icon {
   height: 2rem;
-  background-color: #f9fed9;
+  background-color: #ffd166;
   padding: 1rem;
   border-radius: 50%;
-  color: #118AB2;
+  color: #05b485e2;
 }
 
 .card-text {
@@ -138,7 +139,7 @@
 
 h2 {
   font-size: 2.5rem;
-  color: #f9fed9;
+  color: #fdeecb;
 }
 
 section {
