@@ -103,11 +103,11 @@
 }
 
 .navbar {
-  background-color: #1b618d;
+  _background-color: #1b618d;
 }
 
 .nav-link {
-  color: white !important;
+  _color: white !important;
 }
 
 #navbar-logo {
@@ -115,7 +115,7 @@
 }
 
 .navbar-brand {
-  color: white;
+  _color: white;
 }
 
 a:hover {

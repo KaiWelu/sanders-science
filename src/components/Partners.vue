@@ -59,4 +59,9 @@
 #partner-img {
   margin: 1.5rem;
 }
+
+section {
+  background-color: #118ab2;
+  color: white;
+}
 </style>
