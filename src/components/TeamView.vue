@@ -8,17 +8,17 @@ function toggleImg() {
 
 <template>
   <section>
-    <div class="container-md">
-      <div class="headline-wrapper text-center">
+    <div class="container-md pt-5 pb-5">
+      <header class="headline-wrapper text-center">
         <h1>Team</h1>
         <p class="lead"><i>The ones who run this laboratory</i></p>
-      </div>
+      </header>
       <div class="textblock-wrapper">
-        <div class="accordion" id="accordion-team">
-          <div class="accordion-item">
-            <div class="accordion-header" id="headingOne">
+        <div class="accordion bg-transparent" id="accordion-team">
+          <div class="accordion-item bg-transparent">
+            <div class="accordion-header bg-transparent" id="headingOne">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button bg-transparent collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -57,7 +57,7 @@ function toggleImg() {
               aria-labelledby="headingOne"
               data-bs-parent="#accordion-team"
             >
-              <div class="accordion-body">
+              <div class="accordion-body bg-transparent">
                 <h3 class="text-center mt-2 mb-3">
                   Genomic Instability and Somatic Mosacisim
                 </h3>
@@ -348,19 +348,23 @@ function toggleImg() {
   height: 50%;
 }
 .accordion-body {
-  background-color: rgb(20 110 190);
-  color: white;
+  color: #183153;
 }
 
 .accordion {
-  --bs-accordion-active-bg: #5bb8f24d;
+  --bs-accordion-btn-focus-border-color: #ffffff00;
+  --bs-accordion-active-bg: #4386e31c;
+  --bs-accordion-border-color: #18315300;
+  --bs-accordion-bg: #ffffff00;
+  --bs-heading-color: #183153;
+  --bs-secondary-color: #183153;
 }
 
 .accordion-button:focus {
   z-index: 3;
-  border-color: #fff !important;
+  border-color: #ffffff00 !important;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem #fff !important;
+  box-shadow: 0 0 0 0.05rem #18315300 !important;
 }
 .team-contact-icon {
   height: 2rem;

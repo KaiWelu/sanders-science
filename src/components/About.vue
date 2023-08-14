@@ -1,8 +1,8 @@
 <script setup>
 </script>
 <template>
-  <section>
-    <div class="container-md" id="about">
+  <section class="pb-5">
+    <div class="container-md pt-5 pb-5" id="about">
       <div class="headline-wrapper">
         <h1 class="text-center">About our Lab</h1>
         <p class="lead text-center"><i>Key features of our laboratory</i></p>
@@ -32,7 +32,7 @@
         </p>
       </div>
     </div>
-    <div class="container-md">
+    <div class="container-md pb-5">
       <div class="row justify-content-center gap-5">
         <div class="col-lg-5" style="padding: 0;"><div class="card">
         <div class="card-body">
@@ -103,14 +103,15 @@
 <style scoped>
 .card {
   _background-color: rgb(161, 250, 235);
-  background-color: #a1faebbc;
+  background-color: #118AB2;
   opacity: 0.9;
   border: none;
   box-sizing: border-box;
-  box-shadow: 3px 3px #1b618d;
+  _box-shadow: 3px 3px #059a72;
   height: 100%;
   width: 100%;
   _padding: 0.2rem;
+  color: #f9fed9;
 }
 
 .card:hover {
@@ -125,10 +126,10 @@
 
 .card-icon {
   height: 2rem;
-  background-color: white;
+  background-color: #f9fed9;
   padding: 1rem;
   border-radius: 50%;
-  color: #1b618d;
+  color: #118AB2;
 }
 
 .card-text {
@@ -137,13 +138,20 @@
 
 h2 {
   font-size: 2.5rem;
-  color: #1b618d;
+  color: #f9fed9;
 }
 
 section {
-  background-color: #06D6A0;
-  _background-color: rgb(99 230 190);
-  padding-top: 2rem;
-  padding-bottom: 2rem;  
+  background-color: #06D6A0;  
   }
+.headline-wrapper {
+  _color: #f9fed9;
+color: white;
+}
+
+.textblock-wrapper {
+  _color: #f9fed9;
+  color: white;
+}
+
 </style>
