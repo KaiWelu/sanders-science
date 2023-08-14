@@ -67,32 +67,27 @@
         </button>
       </div>
     </div>
-    <div class="container">
-      <p class="mt-5">Hallo</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        reiciendis error deleniti accusantium. Explicabo adipisci voluptate ut
-        quisquam ipsam. Architecto nam accusamus odio dignissimos suscipit?
-        Dolor quos eius ipsum veritatis.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        reiciendis error deleniti accusantium. Explicabo adipisci voluptate ut
-        quisquam ipsam. Architecto nam accusamus odio dignissimos suscipit?
-        Dolor quos eius ipsum veritatis.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        reiciendis error deleniti accusantium. Explicabo adipisci voluptate ut
-        quisquam ipsam. Architecto nam accusamus odio dignissimos suscipit?
-        Dolor quos eius ipsum veritatis.
-      </p>
-      <p class="mb-0">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-        reiciendis error deleniti accusantium. Explicabo adipisci voluptate ut
-        quisquam ipsam. Architecto nam accusamus odio dignissimos suscipit?
-        Dolor quos eius ipsum veritatis.
-      </p>
+    <div class="container-md p-2 mt-5 pb-5 shadow-sm">
+      <div class="row">
+        <div class="col-md">
+          <p class="text-center stats"><b>271</b></p>
+          <p class="text-center stats">Days Without Sunlight</p>
+        </div>
+        <div class="col-md">
+          <p class="text-center stats"><b>2371</b></p>
+          <p class="text-center stats">Single Cells Sequenced</p>
+        </div>
+        <div class="col-md">
+          <p class="text-center stats"><b>293</b></p>
+          <p class="text-center stats">Meetings</p>
+        </div>
+        <div class="col-md">
+          <p class="text-center stats">
+            <font-awesome-icon icon="fa-solid fa-star" />
+          </p>
+          <p class="text-center stats">Current Mood</p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -119,7 +114,7 @@ section {
   position: absolute;
   content: "";
   left: 0;
-  top: 0;
+  top: 0.1rem;
   width: 100%;
   height: 100%;
   background: linear-gradient(
@@ -129,5 +124,10 @@ section {
     #ef476f3d 80%,
     #ef476f 100%
   );
+}
+
+.stats {
+  font-size: 2rem;
+  _font-family: "Rubik", sans-serif;
 }
 </style>
