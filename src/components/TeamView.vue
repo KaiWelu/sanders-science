@@ -9,7 +9,7 @@ function toggleImg() {
 <template>
   <section>
     <div class="container-md">
-      <div class="headline-wrapper">
+      <div class="headline-wrapper text-center">
         <h1>Team</h1>
         <p class="lead"><i>The ones who run this laboratory</i></p>
       </div>

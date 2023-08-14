@@ -7,10 +7,12 @@ import Partners from "./components/Partners.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 import Publications from "./components/Publications.vue";
+import Gallery from "./components/Gallery.vue";
 </script>
 
 <template>
   <NavBar></NavBar>
+  <Gallery></Gallery>
   <TeamView></TeamView>
   <About></About>
   <Partners></Partners>
