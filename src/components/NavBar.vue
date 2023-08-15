@@ -103,7 +103,7 @@
 }
 
 .navbar {
-  background-color: #285373;
+  background-color: #215c88;
 }
 
 .nav-icon {

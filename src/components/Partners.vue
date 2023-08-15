@@ -1,5 +1,5 @@
 <template>
-  <section class="mb-5">
+  <section class="pb-3">
     <div class="container-md pt-5 pb-5">
       <div class="headline-wrapper text-center">
         <h1>Partners and Affiliations</h1>
@@ -38,14 +38,14 @@
           methods and can collaborate with excellent systems biologists.
         </p>
       </div>
-    </div>
-    <div class="container-md p-5 mb-5" id="partner-img-wrapper">
-      <img
-        src="https://www.sanders.science/affiliationsquare.png"
-        class="img-fluid"
-        alt="partners"
-        id="partner-img"
-      />
+      <div class="container-md p-4 mb-3" id="partner-img-wrapper">
+        <img
+          src="https://www.sanders.science/affiliationsquare.png"
+          class="img-fluid"
+          alt="partners"
+          id="partner-img"
+        />
+      </div>
     </div>
   </section>
 </template>
@@ -57,7 +57,6 @@
   align-items: center;
   background-color: #ffd166;
   border-radius: 5px;
-  margin-bottom: 5rem;
 }
 #partner-img {
   margin: 0.5rem;
