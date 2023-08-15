@@ -26,7 +26,9 @@
           <div class="row justify-content-center">
             <div class="col">
               <ul class="navbar-nav justify-content-start">
-                <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                <li class="nav-item">
+                  <a href="#team" class="nav-link">Team</a>
+                </li>
                 <li class="nav-item">
                   <a href="#about" class="nav-link">About</a>
                 </li>
@@ -103,11 +105,15 @@
 }
 
 .navbar {
-  _background-color: #1b618d;
+  background-color: #215c88;
+}
+
+.nav-icon {
+  height: 1.5rem;
 }
 
 .nav-link {
-  _color: white !important;
+  color: white !important;
 }
 
 #navbar-logo {
@@ -115,7 +121,7 @@
 }
 
 .navbar-brand {
-  _color: white;
+  color: white;
 }
 
 a:hover {

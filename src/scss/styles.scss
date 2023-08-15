@@ -14,14 +14,12 @@ body {
 }
 
 html {
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 4rem;
 }
 
 h1 {
   font-family: "Rubik", sans-serif;
-  _font-family: "Quicksand", sans-serif;
-  _font-family: "Oxygen", sans-serif;
-  _font-family: "Prompt", sans-serif !important;
+  font-size: 3.5rem;
 }
 
 p {
@@ -41,20 +39,8 @@ p {
 }
 
 .headline-wrapper {
-  _background-color: #7ae282;
-  _background-color: rgb(244, 249, 241);
   color: #183153;
-  _color: rgb(20, 112, 141);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 0.5rem;
-  _border-radius: 10px;
-  _border-bottom-right-radius: 5px;
-  _opacity: 0.9;
-  margin-bottom: 0.5rem;
-  _border: solid rgb(18, 167, 216) 2px;
-  _box-shadow: 4px 4px #1b618d;
-  _font-family: "Rubik", sans-serif;
+  margin-bottom: 2rem;
 }
 
 .textblock-wrapper {
@@ -71,38 +57,5 @@ p {
 }
 
 // this is for the cards in the about section
-.card {
-  _background-color: #a1faeb;
-  background-color: $card-bg;
-  opacity: 0.9;
-  border: none;
-  box-sizing: border-box;
-  box-shadow: 3px 3px #1b618d;
-  height: 100%;
-  width: 100%;
-  _padding: 0.2rem;
-}
-
-.card-title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.card-icon {
-  height: 2rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 50%;
-  color: #1b618d;
-}
-
-.card-text {
-  padding: 0.5rem;
-}
-// everything for the navbar
-.nav-icon {
-  height: 1.5rem;
-}
 
 //team view

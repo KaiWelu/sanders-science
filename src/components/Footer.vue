@@ -16,7 +16,7 @@
   height: 10rem;
   _background-color: hotpink;
   _background-color: lightblue;
-  background-color: #1b618d;
+  background-color: #ef476f;
 }
 
 #footer-wrapper {

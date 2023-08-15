@@ -1,7 +1,7 @@
 <template>
-  <div class="container-md" id="publications">
-    <section>
-      <div class="headline-wrapper">
+  <section class="pb-3">
+    <div class="container-md pt-5 pb-5" id="publications">
+      <div class="headline-wrapper text-center">
         <h1>Publications</h1>
         <p class="lead"><i>Explore our peer-reviewed research projects</i></p>
       </div>
@@ -112,20 +112,23 @@
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>
+section {
+  background-color: #6a4c93;
+  color: white;
+}
+
+.headline-wrapper {
+  color: white;
+}
+
 h2 {
   font-size: 1.5rem;
-  color: #1b618d;
-}
-.card {
-  background-color: white;
-  _color: #1b618d;
-  _border: 1px solid #1b618d;
-  _box-shadow: none;
+  color: white;
 }
 
 button {
@@ -135,30 +138,34 @@ button {
 .pub-card {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  _background-color: aqua;
 }
 
 .read-more {
   text-decoration: none;
   color: white;
-  background-color: #2588c5ed;
+  _background-color: #ffd166;
+  background-color: #ee5377;
   padding: 0.4rem;
   border-radius: 5px;
-  box-shadow: 2px 2px #1b618d;
+  _box-shadow: 2px 2px #ffd166;
 }
 
 .read-more:hover {
-  background-color: #44abeb;
-  color: white;
-  _border: 2px solid #2588c5ed;
+  background-color: #ffd166;
+  color: #183153;
 }
 
 #read-all {
-  background-color: #f4a460;
-  color: #013d62;
+  background-color: #ffd166;
+  color: #183153;
   margin-top: 2rem;
   font-size: 1.25rem;
   padding: 0.5rem;
   border: none;
+}
+
+#read-all:hover {
+  background-color: #f0d83e;
+  _color: white;
 }
 </style>
