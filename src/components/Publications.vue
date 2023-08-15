@@ -138,7 +138,6 @@ button {
 .pub-card {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  _background-color: aqua;
 }
 
 .read-more {

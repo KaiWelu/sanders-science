@@ -1,8 +1,11 @@
 <template>
   <section>
-    <div class="container-md" id="contact">
+    <div class="container-md pt-5 pb-5" id="contact">
       <div class="headline-wrapper">
         <h1 class="text-center">Contact</h1>
+        <p class="lead text-center">
+          <i>Send us a message or visit our lab</i>
+        </p>
       </div>
       <div id="contact-wrapper">
         <div class="textblock-wrapper std-card-background">
@@ -10,7 +13,6 @@
             <font-awesome-icon
               icon="fa-solid fa-location-dot"
               class="contact-icon"
-              style="color: #1b1b8d"
             />
             <div class="adress-wrapper">
               <p>
@@ -23,18 +25,13 @@
           <div class="contact-card">
             <font-awesome-icon
               icon="fa-solid fa-envelope"
-              style="color: #1b1b8d"
               class="contact-icon"
             />
             <div class="adress-wrapper"><p>hallo@mdc-berlin.de</p></div>
           </div>
 
           <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-solid fa-phone"
-              style="color: #1b1b8d"
-              class="contact-icon"
-            />
+            <font-awesome-icon icon="fa-solid fa-phone" class="contact-icon" />
             <div class="adress-wrapper"><p>+49 30 94061593</p></div>
           </div>
         </div>
@@ -74,13 +71,21 @@
 </template>
 
 <style scoped>
+section {
+  background-color: #ef476f;
+  color: white;
+}
+
+.headline-wrapper {
+  color: white;
+}
 .contact-icon {
   height: 2rem;
   width: 2rem;
-  background-color: white;
+  background-color: #6a4c93;
   padding: 0.5rem;
   border-radius: 30%;
-  color: #1b1b8d;
+  color: white;
 }
 
 .contact-card {
@@ -101,7 +106,10 @@
 }
 
 .std-card-background {
-  background-color: aquamarine;
+  _background-color: #6a4c93;
+
+  border-radius: 5px;
+  color: white;
   opacity: 0.9;
   display: block;
 }

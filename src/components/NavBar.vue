@@ -26,7 +26,9 @@
           <div class="row justify-content-center">
             <div class="col">
               <ul class="navbar-nav justify-content-start">
-                <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
+                <li class="nav-item">
+                  <a href="#team" class="nav-link">Team</a>
+                </li>
                 <li class="nav-item">
                   <a href="#about" class="nav-link">About</a>
                 </li>
