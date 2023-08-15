@@ -376,6 +376,6 @@ function toggleImg() {
 }
 
 section {
-  background-color: #ffd166;
+  background-color: rgb(255, 250, 244);
 }
 </style>

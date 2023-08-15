@@ -143,7 +143,7 @@ h2 {
 }
 
 section {
-  background-color: #06D6A0;  
+  background-color: #57cc99;  
   }
 .headline-wrapper {
   _color: #f9fed9;

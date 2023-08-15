@@ -105,7 +105,8 @@
 }
 
 .navbar {
-  background-color: #215c88;
+  background-color: #5b1451;
+  _background-color: white;
 }
 
 .nav-icon {
@@ -131,5 +132,6 @@ a:hover {
 
 button {
   color: white !important;
+  _color: black !important;
 }
 </style>

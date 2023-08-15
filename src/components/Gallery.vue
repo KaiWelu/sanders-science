@@ -1,5 +1,5 @@
 <template>
-  <section class="shadow-sm">
+  <section>
     <div class="container-fluid p-0" id="gallery-wrapper">
       <div id="landing-gallery" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -67,7 +67,7 @@
         </button>
       </div>
     </div>
-    <div class="container-md p-2 mt-5 pb-5 shadow-sm">
+    <div class="container-md p-2 mt-5 pb-5">
       <div class="row">
         <div class="col-md">
           <p class="text-center stats"><b>271</b></p>
@@ -94,7 +94,7 @@
 
 <style scoped>
 section {
-  background-color: #ef476f;
+  background-color: #38a3a5;
   _color: #183153;
   color: white;
   margin-top: none;

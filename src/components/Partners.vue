@@ -62,11 +62,12 @@
   margin: 0.5rem;
 }
 .headline-wrapper {
-  color: white;
+  color: black;
 }
 
 .textblock-wrapper {
-  color: white;
+  _color: white;
+  color: black;
 }
 a {
   color: #ffd166;
@@ -78,6 +79,7 @@ a:hover {
 }
 
 section {
-  background-color: #118ab2;
+  _background-color: #118ab2;
+  background-color: white;
 }
 </style>
