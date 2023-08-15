@@ -103,11 +103,15 @@
 }
 
 .navbar {
-  _background-color: #1b618d;
+  background-color: #285373;
+}
+
+.nav-icon {
+  height: 1.5rem;
 }
 
 .nav-link {
-  _color: white !important;
+  color: white !important;
 }
 
 #navbar-logo {
@@ -115,7 +119,7 @@
 }
 
 .navbar-brand {
-  _color: white;
+  color: white;
 }
 
 a:hover {
