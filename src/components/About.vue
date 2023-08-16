@@ -34,7 +34,7 @@
     </div>
     <div class="container-md pb-5">
       <div class="row justify-content-center gap-5">
-        <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="col-lg-5 shadow-sm" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-dna" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Science</h2></div>            
@@ -47,7 +47,7 @@
           </p>
         </div>
       </div></div>
-      <div class="col-lg-5" style="padding: 0;"><div class="card">
+      <div class="col-lg-5 shadow-sm" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-heart" class="card-icon"/><h2 style="margin-bottom: 0rem;">Passion</h2></div>            
@@ -61,7 +61,7 @@
           </p>
         </div>
       </div></div>  
-      <div class="col-lg-5" style="padding: 0;"><div class="card">
+      <div class="col-lg-5 shadow-sm" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-bullhorn" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Communication</h2></div>            
@@ -77,7 +77,7 @@
           </p>
         </div>
       </div></div>
-        <div class="col-lg-5" style="padding: 0;"><div class="card">
+        <div class="col-lg-5 shadow-sm" style="padding: 0;"><div class="card">
         <div class="card-body">
           <p class="card-title">
             <div class="card-title-wrapper"><font-awesome-icon icon="fa-solid fa-microchip" class="card-icon"/> <h2 style="margin-bottom: 0rem;">Computation</h2></div>            
@@ -143,11 +143,12 @@ h2 {
 }
 
 section {
-  background-color: #118AB2;  
+  background-image: linear-gradient( #1a759f, #168AAD);
   }
 .headline-wrapper {
   _color: #f9fed9;
 color: white;
+text-shadow: 2px 2px #345057;
 }
 
 .textblock-wrapper {

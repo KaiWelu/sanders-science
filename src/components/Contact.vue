@@ -72,7 +72,7 @@
 
 <style scoped>
 section {
-  background-color: white;
+  background-image: linear-gradient(#52b69a, #76c893);
   color: #183153;
 }
 

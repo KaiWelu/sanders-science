@@ -118,7 +118,7 @@
 
 <style scoped>
 section {
-  background-color: #ffd166;
+  background-image: linear-gradient(#34a0a4, #52b69a);
   color: #183153;
 }
 

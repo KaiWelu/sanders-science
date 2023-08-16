@@ -320,6 +320,10 @@ function toggleImg() {
   border: none;
 }
 
+.headline-wrapper {
+  color: white;
+  text-shadow: 2px 2px #345057;
+}
 .icon-wrapper {
   position: absolute;
   top: 5.5rem;
@@ -348,7 +352,7 @@ function toggleImg() {
   height: 50%;
 }
 .accordion-body {
-  color: #183153;
+  color: white;
 }
 
 .accordion {
@@ -356,7 +360,7 @@ function toggleImg() {
   --bs-accordion-active-bg: #4386e31c;
   --bs-accordion-border-color: #18315300;
   --bs-accordion-bg: #ffffff00;
-  --bs-heading-color: #183153;
+  --bs-heading-color: white;
   --bs-secondary-color: #183153;
 }
 
@@ -376,6 +380,7 @@ function toggleImg() {
 }
 
 section {
-  background-color: rgb(255, 255, 255);
+  _background-color: #1a759f;
+  background-image: linear-gradient(#1e6091, #1a759f);
 }
 </style>

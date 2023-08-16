@@ -38,7 +38,7 @@
           methods and can collaborate with excellent systems biologists.
         </p>
       </div>
-      <div class="container-md p-4 mb-3" id="partner-img-wrapper">
+      <div class="container-md p-4 mb-3 shadow-sm" id="partner-img-wrapper">
         <img
           src="https://www.sanders.science/affiliationsquare.png"
           class="img-fluid"
@@ -55,32 +55,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  _background-color: #ffd166;
+  background-color: #e7fbffe2;
   border-radius: 5px;
 }
 #partner-img {
   margin: 0.5rem;
 }
 .headline-wrapper {
-  color: #183153;
+  color: white;
+  text-shadow: 2px 2px #345057;
 }
 
 .textblock-wrapper {
-  _color: white;
-  color: #183153;
+  color: white;
+  _color: #183153;
 }
 a {
-  color: #4e96fb;
+  color: #fdffc2;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f4a460;
+  color: #f5d4b7;
   text-decoration: underline;
 }
 
 section {
   _background-color: #118ab2;
-  background-color: white;
+  background-image: linear-gradient(#168aad, #34a0a4);
 }
 </style>
