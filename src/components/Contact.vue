@@ -72,17 +72,17 @@
 
 <style scoped>
 section {
-  background-color: #ef476f;
-  color: white;
+  background-color: white;
+  color: #183153;
 }
 
 .headline-wrapper {
-  color: white;
+  color: #183153;
 }
 .contact-icon {
   height: 2rem;
   width: 2rem;
-  background-color: #6a4c93;
+  background-color: #183153;
   padding: 0.5rem;
   border-radius: 30%;
   color: white;
@@ -109,7 +109,7 @@ section {
   _background-color: #6a4c93;
 
   border-radius: 5px;
-  color: white;
+  color: #183153;
   opacity: 0.9;
   display: block;
 }

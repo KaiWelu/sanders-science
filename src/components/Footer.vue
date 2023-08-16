@@ -16,7 +16,7 @@
   height: 10rem;
   _background-color: hotpink;
   _background-color: lightblue;
-  background-color: #ef476f;
+  background-color: white;
 }
 
 #footer-wrapper {
@@ -32,6 +32,6 @@
 }
 p {
   _color: #ddf1f3;
-  color: white;
+  _color: white;
 }
 </style>
