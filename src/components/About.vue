@@ -103,7 +103,7 @@
 <style scoped>
 .card {
   _background-color: rgb(161, 250, 235);
-  background-color: #05b485e2;
+  background-color: #53aecc;
   _opacity: 0.9;
   border: none;
   box-sizing: border-box;
@@ -127,10 +127,10 @@
 
 .card-icon {
   height: 2rem;
-  background-color: #ffd166;
+  background-color: white;
   padding: 1rem;
   border-radius: 50%;
-  color: #05b485e2;
+  color: #118AB2;
 }
 
 .card-text {
@@ -139,11 +139,11 @@
 
 h2 {
   font-size: 2.5rem;
-  color: #fdeecb;
+  color: white;
 }
 
 section {
-  background-color: #06D6A0;  
+  background-color: #118AB2;  
   }
 .headline-wrapper {
   _color: #f9fed9;

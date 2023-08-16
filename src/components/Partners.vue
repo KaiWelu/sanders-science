@@ -55,29 +55,32 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffd166;
+  _background-color: #ffd166;
   border-radius: 5px;
 }
 #partner-img {
   margin: 0.5rem;
 }
 .headline-wrapper {
-  color: white;
+  color: #183153;
 }
 
 .textblock-wrapper {
-  color: white;
+  _color: white;
+  color: #183153;
 }
 a {
-  color: #ffd166;
+  color: #4e96fb;
   text-decoration: none;
 }
 
 a:hover {
+  color: #f4a460;
   text-decoration: underline;
 }
 
 section {
-  background-color: #118ab2;
+  _background-color: #118ab2;
+  background-color: white;
 }
 </style>

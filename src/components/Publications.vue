@@ -118,17 +118,17 @@
 
 <style scoped>
 section {
-  background-color: #6a4c93;
-  color: white;
+  background-color: #ffd166;
+  color: #183153;
 }
 
 .headline-wrapper {
-  color: white;
+  color: #183153;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: white;
+  color: #183153;
 }
 
 button {
@@ -143,21 +143,21 @@ button {
 .read-more {
   text-decoration: none;
   color: white;
-  _background-color: #ffd166;
-  background-color: #ee5377;
+  background-color: #118ab2;
+  _background-color: #ee5377;
   padding: 0.4rem;
   border-radius: 5px;
   _box-shadow: 2px 2px #ffd166;
 }
 
 .read-more:hover {
-  background-color: #ffd166;
-  color: #183153;
+  background-color: #ee5377;
+  color: white;
 }
 
 #read-all {
-  background-color: #ffd166;
-  color: #183153;
+  background-color: #118ab2;
+  color: white;
   margin-top: 2rem;
   font-size: 1.25rem;
   padding: 0.5rem;
@@ -165,7 +165,7 @@ button {
 }
 
 #read-all:hover {
-  background-color: #f0d83e;
+  background-color: #ee5377;
   _color: white;
 }
 </style>
