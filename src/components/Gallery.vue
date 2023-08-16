@@ -67,7 +67,7 @@
         </button>
       </div>
     </div>
-    <div class="container-md p-2 mt-5 pb-5">
+    <div class="container-md pt-5 pb-5">
       <div class="row">
         <div class="col-md">
           <p class="text-center stats"><b>271</b></p>
@@ -94,7 +94,7 @@
 
 <style scoped>
 section {
-  background-color: #38a3a5;
+  background-color: #a734a3;
   _color: #183153;
   color: white;
   margin-top: none;
@@ -117,12 +117,12 @@ section {
   top: 0.1rem;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
+  _background: linear-gradient(
     to bottom,
     #ffffff00,
-    #ffffff00 60%,
-    #ef476f3d 80%,
-    #ef476f 100%
+    #ffffff00 80%,
+    #06d6a03d 90%,
+    #06d6a0 100%
   );
 }
 

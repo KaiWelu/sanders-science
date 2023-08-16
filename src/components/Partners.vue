@@ -55,22 +55,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffd166;
+  _background-color: #ffd166;
   border-radius: 5px;
 }
 #partner-img {
   margin: 0.5rem;
 }
 .headline-wrapper {
-  color: black;
+  color: #183153;
 }
 
 .textblock-wrapper {
   _color: white;
-  color: black;
+  color: #183153;
 }
 a {
-  color: #ffd166;
+  color: #4e96fb;
   text-decoration: none;
 }
 

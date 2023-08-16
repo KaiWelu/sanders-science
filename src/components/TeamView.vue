@@ -372,10 +372,10 @@ function toggleImg() {
   color: #2588c5ed;
 }
 .team-contact-icon:hover {
-  color: #1b618d98;
+  color: #f4a460;
 }
 
 section {
-  background-color: rgb(255, 250, 244);
+  background-color: rgb(255, 255, 255);
 }
 </style>
