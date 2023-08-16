@@ -75,6 +75,7 @@ a {
 }
 
 a:hover {
+  color: #f4a460;
   text-decoration: underline;
 }
 
