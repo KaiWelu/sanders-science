@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="textblock-wrapper std-card-background">
-          <div class="contact-card">
+          <!-- <div class="contact-card">
             <font-awesome-icon
               icon="fa-brands fa-instagram"
               class="contact-icon"
@@ -63,7 +63,18 @@
               class="contact-icon"
             />
             <div class="adress-wrapper"><p>Researchgate</p></div>
-          </div>
+          </div> -->
+          <iframe
+            width="520"
+            height="400"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Hannoversche%20Str.%2028%20Berlin+(Max%20Delbr%C3%BCck%20Center)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe
+          ><a href="https://maps-generator.com/"></a>
         </div>
       </div>
     </div>
