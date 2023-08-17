@@ -1,9 +1,9 @@
 <script setup>
 </script>
 <template>
-  <section class="pb-5">
-    <div class="container-md pt-5 pb-5" id="about">
-      <div class="headline-wrapper">
+  <section class="pb-5 pt-5">
+    <div class="container-md pt-3 pb-5 shadow-lg" id="about">
+      <div class="headline-wrapper p-2">
         <h1 class="text-center">About our Lab</h1>
         <p class="lead text-center"><i>Key features of our laboratory</i></p>
       </div>
@@ -31,7 +31,7 @@
           disease.
         </p>
       </div>
-    </div>
+    
     <div class="container-md pb-5">
       <div class="row justify-content-center gap-5">
         <div class="col-lg-5 shadow-sm" style="padding: 0;"><div class="card">
@@ -97,6 +97,7 @@
             
       </div>          
       </div>
+    </div>
 
   </section>
 </template>
@@ -143,17 +144,27 @@ h2 {
 }
 
 section {
-  background-image: linear-gradient( #1a759f, #168AAD);
+  background-image: linear-gradient( #34a0a4, #168AAD);
   }
 .headline-wrapper {
-  _color: #f9fed9;
-color: white;
-text-shadow: 2px 2px #345057;
+  color: #fefff7;
+_color: #183153;
+_text-shadow: 2px 2px #345057;
+border-bottom: 2px solid #f7f7f71e;
+}
+
+#about {
+  background-color: #f7f7f70c;
+  _background-color: #f2ffff;
+  border: 2px solid #f7f7f71e;
+  border-radius: 3px;
+  
 }
 
 .textblock-wrapper {
-  _color: #f9fed9;
-  color: white;
+  _color: #fffffd;
+  color: #fefff7
+  
 }
 
 </style>

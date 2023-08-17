@@ -7,8 +7,8 @@ function toggleImg() {
 </script>
 
 <template>
-  <section>
-    <div class="container-md pt-5 pb-5" id="team">
+  <section class="pt-5 pb-5">
+    <div class="container-md pt-3 pb-5 shadow" id="team">
       <header class="headline-wrapper text-center">
         <h1>Team</h1>
         <p class="lead"><i>The ones who run this laboratory</i></p>
@@ -381,6 +381,12 @@ function toggleImg() {
 
 section {
   _background-color: #1a759f;
-  background-image: linear-gradient(#1e6091, #1a759f);
+  background-image: linear-gradient(#52b69a, #34a0a4);
+}
+
+#team {
+  background-color: #f7f7f70c;
+  _border: 2px solid #f7f7f71e;
+  border-radius: 3px;
 }
 </style>

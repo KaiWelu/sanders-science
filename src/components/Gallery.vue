@@ -94,7 +94,7 @@
 
 <style scoped>
 section {
-  background-color: #1e6091;
+  background-color: #52b69a;
   _background-image: linear-gradient(#1e6091, #d35628);
   _color: #183153;
   color: white;
