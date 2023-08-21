@@ -7,7 +7,60 @@
           <i>Send us a message or visit our lab</i>
         </p>
       </div>
-      <div id="contact-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-auto">
+            <div class="row">
+              <div class="col-auto">
+                <font-awesome-icon
+                  icon="fa-solid fa-location-dot"
+                  class="contact-icon"
+                />
+              </div>
+              <div class="col-auto">
+                <p>
+                  Berlin Institute for Medical Systems Biology<br />
+                  Hannoversche Str. 28 <br />
+                  10115 Berlin, Germany
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <font-awesome-icon
+                  icon="fa-solid fa-envelope"
+                  class="contact-icon"
+                />
+              </div>
+              <div class="col-auto">
+                <p>hallo@mdc-berlin.de</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-auto">
+                <font-awesome-icon
+                  icon="fa-solid fa-phone"
+                  class="contact-icon"
+                />
+              </div>
+              <div class="col-auto"><p>+49 30 94061593</p></div>
+            </div>
+          </div>
+          <div class="col-8">
+            <iframe
+              width="100%"
+              height="100%"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Hannoversche%20Str.%2028%20Berlin+(Max%20Delbr%C3%BCck%20Center)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="contact-wrapper">
         <div class="textblock-wrapper std-card-background">
           <div class="contact-card">
             <font-awesome-icon
@@ -35,8 +88,11 @@
             <div class="adress-wrapper"><p>+49 30 94061593</p></div>
           </div>
         </div>
-        <div class="textblock-wrapper std-card-background">
-          <!-- <div class="contact-card">
+        <div class="textblock-wrapper std-card-background"></div>
+      </div> -->
+    </div>
+
+    <!-- <div class="contact-card">
             <font-awesome-icon
               icon="fa-brands fa-instagram"
               class="contact-icon"
@@ -64,20 +120,6 @@
             />
             <div class="adress-wrapper"><p>Researchgate</p></div>
           </div> -->
-          <iframe
-            width="520"
-            height="400"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            id="gmap_canvas"
-            src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Hannoversche%20Str.%2028%20Berlin+(Max%20Delbr%C3%BCck%20Center)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          ></iframe
-          ><a href="https://maps-generator.com/"></a>
-        </div>
-      </div>
-    </div>
   </section>
 </template>
 
@@ -99,29 +141,11 @@ section {
   color: white;
 }
 
-.contact-card {
+.contact-row {
   display: flex;
-  gap: 1rem;
-  padding: 0.75rem;
-}
-
-.adress-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5rem;
-}
-
-#contact-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.std-card-background {
-  _background-color: #6a4c93;
-
-  border-radius: 5px;
-  color: #183153;
-  opacity: 0.9;
-  display: block;
+  flex-direction: row;
+  _gap: 1rem;
+  _align-items: start;
+  _justify-content: start;
 }
 </style>
