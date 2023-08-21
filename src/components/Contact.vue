@@ -8,9 +8,9 @@
         </p>
       </div>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row justify-content-md- gap-3">
           <div class="col-auto">
-            <div class="row">
+            <div class="row p-2">
               <div class="col-auto">
                 <font-awesome-icon
                   icon="fa-solid fa-location-dot"
@@ -25,7 +25,7 @@
                 </p>
               </div>
             </div>
-            <div class="row">
+            <div class="row p-2">
               <div class="col-auto">
                 <font-awesome-icon
                   icon="fa-solid fa-envelope"
@@ -36,7 +36,7 @@
                 <p>hallo@mdc-berlin.de</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row p-2">
               <div class="col-auto">
                 <font-awesome-icon
                   icon="fa-solid fa-phone"
@@ -46,10 +46,10 @@
               <div class="col-auto"><p>+49 30 94061593</p></div>
             </div>
           </div>
-          <div class="col-8">
+          <div class="col p-2">
             <iframe
               width="100%"
-              height="100%"
+              height="500px"
               frameborder="0"
               scrolling="no"
               marginheight="0"
@@ -60,66 +60,7 @@
           </div>
         </div>
       </div>
-      <!-- <div id="contact-wrapper">
-        <div class="textblock-wrapper std-card-background">
-          <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-solid fa-location-dot"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper">
-              <p>
-                Berlin Institute for Medical Systems Biology<br />
-                Hannoversche Str. 28 <br />
-                10115 Berlin, Germany
-              </p>
-            </div>
-          </div>
-          <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-solid fa-envelope"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper"><p>hallo@mdc-berlin.de</p></div>
-          </div>
-
-          <div class="contact-card">
-            <font-awesome-icon icon="fa-solid fa-phone" class="contact-icon" />
-            <div class="adress-wrapper"><p>+49 30 94061593</p></div>
-          </div>
-        </div>
-        <div class="textblock-wrapper std-card-background"></div>
-      </div> -->
     </div>
-
-    <!-- <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-brands fa-instagram"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper"><p>Instagram</p></div>
-          </div>
-          <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-brands fa-twitter"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper"><p>Twitter</p></div>
-          </div>
-          <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-brands fa-github"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper"><p>GitHub</p></div>
-          </div>
-          <div class="contact-card">
-            <font-awesome-icon
-              icon="fa-brands fa-researchgate"
-              class="contact-icon"
-            />
-            <div class="adress-wrapper"><p>Researchgate</p></div>
-          </div> -->
   </section>
 </template>
 
@@ -129,6 +70,9 @@ section {
   color: #183153;
 }
 
+p {
+  font-size: 1.3rem;
+}
 .headline-wrapper {
   color: #183153;
 }
@@ -141,11 +85,7 @@ section {
   color: white;
 }
 
-.contact-row {
-  display: flex;
-  flex-direction: row;
-  _gap: 1rem;
-  _align-items: start;
-  _justify-content: start;
+#contact {
+  -height: 50rem;
 }
 </style>
