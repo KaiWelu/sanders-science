@@ -1,9 +1,16 @@
+// Bootstrap default variable overrides
+
+// modal styling
+$modal-content-bg: white;
+$modal-content-border-radius: none;
+$modal-content-border-width: none;
+$modal-dialog-margin-y-sm-up: 5%;
+$modal-backdrop-opacity: 0.9;
+
 // Import all of Bootstrap's CSS
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // here be variables
-
-$card-bg: #a1faebbc;
 
 :root {
   box-sizing: border-box;
@@ -30,8 +37,12 @@ h1 {
 }
 
 .comic-pic {
-  height: 5rem;
-  width: 5rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.comic-pic:hover {
+  opacity: 0.8;
 }
 
 .headline-wrapper {
@@ -51,7 +62,3 @@ h1 {
 #app {
   background-color: white;
 }
-
-// this is for the cards in the about section
-
-//team view

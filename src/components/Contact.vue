@@ -46,7 +46,7 @@
               <div class="col-auto"><p>+49 30 94061593</p></div>
             </div>
           </div>
-          <div class="col p-2">
+          <div class="col-lg p-2">
             <iframe
               width="100%"
               height="500px"

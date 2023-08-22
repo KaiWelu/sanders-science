@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dr. Ashley Sanders",
+    "title": "Principal Investigator",
+    "comicImg": "https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale",
+    "realImg": "https://www.sanders.science/ashley.jpg",
+    "headline": "Genomic Instability and Somatic Mosacisim",
+    "text": "Hi and welcome! I’m the Sanders Lab head and an independent group leader at the Berlin Institute for Medical Systems Biology (BIMSB) at the MDC. We apply single cell genomic technologies to biomedical and translational problems. My lab’s research broadly aims to (1) develop new and innovative single cell technologies that combine experimental and computational methods to explore germline and somatic genetic variation with a new lens, and (2) apply these methods to investigate how genetic mutations arise in our cells and tissues, how they impact cell states and functions, and how they contribute to human health and disease. I love finding new applications, building strong collaborations and pushing the edge of discovery. I also love yoga and mountains. Happy research!",
+    "mail": true,
+    "mailAdress": "yolo@yolo.co",
+    "orcid": true,
+    "orcidLink": "https://orcid.org/0000-0003-3945-0677",
+    "linkedIn": false,
+    "linkedInLink": "",
+    "researchGate": false,
+    "researchGateLink": "",
+    "gitHub": false,
+    "gitHubLink": ""
+  },
+  {
+    "name": "Oliver Dyck Dionisi",
+    "title": "Technical Assistant",
+    "comicImg": "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=Brown&facialHairType=BeardLight&facialHairColor=Brown&clotheType=ShirtVNeck&clotheColor=Heather&eyeType=Squint&eyebrowType=UpDownNatural&mouthType=Tongue&skinColor=Pale",
+    "realImg": "https://www.sanders.science/oliver.jpeg",
+    "headline": "Technical Assistant",
+    "text": "General lab manager and hands-on work, supporting the single cell research area. Happy research!",
+    "mail": true,
+    "mailAdress": "yolo@yolo.co",
+    "orcid": true,
+    "orcidLink": "https://orcid.org/0000-0003-2448-5981",
+    "linkedIn": true,
+    "linkedInLink": "https://www.linkedin.com/in/oliver-dyck-dionisi-824ba8174/",
+    "researchGate": false,
+    "researchGateLink": "",
+    "gitHub": false,
+    "gitHubLink": ""
+  }
+]
