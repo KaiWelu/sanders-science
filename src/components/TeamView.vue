@@ -1,15 +1,16 @@
 <script setup>
 import { ref } from "vue";
-let showComicImg = ref(true);
-function toggleImg() {
-  this.showComicImg = !this.showComicImg;
-}
+import teamData from "../assets/data/team.json";
+
+const team = ref(teamData);
 </script>
 
 <template>
+  <!-- modals are on top level for proper rendering -->
   <div
+    v-for="(member, index) in team"
     class="modal fade"
-    id="ashley"
+    :id="'modal' + index"
     tabindex="-1"
     aria-labelledby="Ashley Sanders"
     aria-hidden="true"
@@ -17,21 +18,21 @@ function toggleImg() {
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Hallo</h5>
+          <h2 class="modal-title" :id="'modal' + index + index">
+            {{ member.name }}
+          </h2>
           <button
             type="button"
             class="btn-close"
             data-bs-dismiss="modal"
             aria-label="Close"
           >
-            Close Me
+            Close
           </button>
         </div>
-        <div class="modal-conten">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-          perferendis cupiditate totam aspernatur exercitationem quod, sapiente
-          quibusdam officiis doloribus itaque placeat natus tempora mollitia,
-          aut commodi dolorem, pariatur velit similique?
+        <div class="modal-content p-5 text-center">
+          <h3 class="mb-4">{{ member.headline }}</h3>
+          <p>{{ member.text }}</p>
         </div>
       </div>
     </div>
@@ -44,190 +45,41 @@ function toggleImg() {
       </header>
       <div class="container-fluid">
         <div class="row row-cols-auto g-3 justify-content-center">
-          <div class="col">
+          <div class="col" v-for="(member, index) in team">
             <div class="team-card text-center shadow-sm p-3">
-              <button data-bs-toggle="modal" data-bs-target="#ashley">
-                <img
-                  class="comic-pic"
-                  src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-                />
+              <button
+                data-bs-toggle="modal"
+                :data-bs-target="'#' + 'modal' + index"
+              >
+                <img class="comic-pic" :src="member.comicImg" />
               </button>
-
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
+              <h3 class="mt-3">{{ member.name }}</h3>
+              <p class="text-body-secondary">{{ member.title }}</p>
               <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
+                <a :href="member.mailAdress" class="p-2" v-if="member.mail"
                   ><font-awesome-icon
                     icon="fa-solid fa-envelope"
                     class="team-contact-icon"
                 /></a>
-                <a href="#" class="p-2"
+                <a :href="member.orcidLink" class="p-2" v-if="member.orcid"
                   ><font-awesome-icon
                     icon="fa-brands fa-orcid"
                     class="team-contact-icon"
                 /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
+                <a
+                  :href="member.linkedInLink"
+                  class="p-2"
+                  v-if="member.linkedIn"
                   ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
+                    icon="fa-brands fa-linkedin"
                     class="team-contact-icon"
                 /></a>
-                <a href="#" class="p-2"
+                <a
+                  :href="member.researchGateLink"
+                  class="p-2"
+                  v-if="researchGate"
                   ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Oliver Dyck Dionisi</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
-                    class="team-contact-icon"
-                /></a>
-              </p>
-            </div>
-          </div>
-          <div class="col">
-            <div class="team-card text-center shadow-sm p-3">
-              <img
-                class="comic-pic"
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-              />
-              <h3 class="mt-3">Dr. Ashley Sanders</h3>
-              <p class="text-body-secondary">Principal Investigator</p>
-              <p class="text-center mt-3 mb-1">
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-solid fa-envelope"
-                    class="team-contact-icon"
-                /></a>
-                <a href="#" class="p-2"
-                  ><font-awesome-icon
-                    icon="fa-brands fa-orcid"
+                    icon="fa-brands fa-researchgate"
                     class="team-contact-icon"
                 /></a>
               </p>
@@ -538,6 +390,14 @@ function toggleImg() {
 </template>
 
 <style scoped>
+section {
+  background-color: rgb(255, 255, 255);
+}
+
+button {
+  all: unset;
+}
+
 .team-card {
   background-color: #fafbfb;
   border-radius: 5px;
@@ -548,62 +408,6 @@ function toggleImg() {
   transform: scale(110%);
   z-index: 100;
 }
-
-button {
-  all: unset;
-}
-
-/* After this is the old styling */
-.accordion-item {
-  border: none;
-}
-
-.icon-wrapper {
-  position: absolute;
-  top: 5.5rem;
-  left: 8rem;
-}
-
-.accordion-header {
-  position: relative;
-}
-.accordion-header:focus {
-  border: none;
-  background-color: hotpink;
-}
-
-.real-pic {
-  border-radius: 50%;
-  height: 5rem;
-  width: 5rem;
-}
-
-.collapse-img {
-  border-radius: 5%;
-  _color: #1b618d;
-  _border: solid 2px grey;
-  _box-shadow: 3px 3px #1b618d;
-  height: 50%;
-}
-.accordion-body {
-  color: #183153;
-}
-
-.accordion {
-  --bs-accordion-btn-focus-border-color: #ffffff00;
-  --bs-accordion-active-bg: #4386e31c;
-  --bs-accordion-border-color: #18315300;
-  --bs-accordion-bg: #ffffff00;
-  --bs-heading-color: #183153;
-  --bs-secondary-color: #183153;
-}
-
-.accordion-button:focus {
-  z-index: 3;
-  border-color: #ffffff00 !important;
-  outline: 0;
-  box-shadow: 0 0 0 0.05rem #18315300 !important;
-}
 .team-contact-icon {
   height: 2rem;
   margin: 0.2rem;
@@ -611,9 +415,5 @@ button {
 }
 .team-contact-icon:hover {
   color: #f4a460;
-}
-
-section {
-  background-color: rgb(255, 255, 255);
 }
 </style>
