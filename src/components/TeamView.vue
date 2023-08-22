@@ -7,6 +7,35 @@ function toggleImg() {
 </script>
 
 <template>
+  <div
+    class="modal fade"
+    id="ashley"
+    tabindex="-1"
+    aria-labelledby="Ashley Sanders"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Hallo</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            Close Me
+          </button>
+        </div>
+        <div class="modal-conten">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+          perferendis cupiditate totam aspernatur exercitationem quod, sapiente
+          quibusdam officiis doloribus itaque placeat natus tempora mollitia,
+          aut commodi dolorem, pariatur velit similique?
+        </div>
+      </div>
+    </div>
+  </div>
   <section>
     <div class="container-md pt-5 pb-5" id="team">
       <header class="headline-wrapper text-center">
