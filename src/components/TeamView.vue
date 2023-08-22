@@ -14,326 +14,195 @@ function toggleImg() {
         <p class="lead"><i>The ones who run this laboratory</i></p>
       </header>
       <div class="container-fluid">
-        <div class="row row-cols-auto g-2">
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+        <div class="row row-cols-auto g-3 justify-content-center">
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <button data-bs-toggle="modal" data-bs-target="#ashley">
+                <img
+                  class="comic-pic"
+                  src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+                />
+              </button>
+
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Oliver Dyck Dionisi</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
-          </div>
-          <div class="col team-card text-center p-3 shadow-sm">
-            <img
-              class="comic-pic"
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
-            />
-            <h3 class="mt-3">Dr. Ashley Sanders</h3>
-            <p class="text-body-secondary">Principal Investigator</p>
-            <p class="text-center mt-3 mb-1">
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-solid fa-envelope"
-                  class="team-contact-icon"
-              /></a>
-              <a href="#" class="p-2"
-                ><font-awesome-icon
-                  icon="fa-brands fa-orcid"
-                  class="team-contact-icon"
-              /></a>
-            </p>
+          <div class="col">
+            <div class="team-card text-center shadow-sm p-3">
+              <img
+                class="comic-pic"
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Blonde&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Side&eyebrowType=DefaultNatural&mouthType=Smile&skinColor=Pale"
+              />
+              <h3 class="mt-3">Dr. Ashley Sanders</h3>
+              <p class="text-body-secondary">Principal Investigator</p>
+              <p class="text-center mt-3 mb-1">
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-solid fa-envelope"
+                    class="team-contact-icon"
+                /></a>
+                <a href="#" class="p-2"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-orcid"
+                    class="team-contact-icon"
+                /></a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -641,8 +510,18 @@ function toggleImg() {
 
 <style scoped>
 .team-card {
-  background-color: rgb(239, 239, 239);
+  background-color: #fafbfb;
   border-radius: 5px;
+}
+
+.team-card:hover {
+  background-color: #fefef4;
+  transform: scale(110%);
+  z-index: 100;
+}
+
+button {
+  all: unset;
 }
 
 /* After this is the old styling */

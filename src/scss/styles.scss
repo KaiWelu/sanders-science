@@ -30,8 +30,12 @@ h1 {
 }
 
 .comic-pic {
-  height: 8rem;
-  width: 8rem;
+  height: 15rem;
+  width: 15rem;
+}
+
+.comic-pic:hover {
+  opacity: 0.8;
 }
 
 .headline-wrapper {
