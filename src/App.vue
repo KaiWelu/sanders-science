@@ -8,11 +8,13 @@ import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 import Publications from "./components/Publications.vue";
 import Gallery from "./components/Gallery.vue";
+import Loader from "./components/Loader.vue";
 </script>
 
 <template>
   <NavBar></NavBar>
-  <Gallery></Gallery>
+  <Loader></Loader>
+  <!-- <Gallery></Gallery> -->
   <TeamView></TeamView>
   <About></About>
   <Partners></Partners>
