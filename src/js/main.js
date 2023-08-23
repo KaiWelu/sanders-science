@@ -27,6 +27,7 @@ import {
   faBullhorn,
   faMicrochip,
   faStar,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
@@ -48,7 +49,8 @@ library.add(
   faDna,
   faUserSecret,
   faMicrochip,
-  faStar
+  faStar,
+  faXmark
 );
 library.add(
   faInstagram,
