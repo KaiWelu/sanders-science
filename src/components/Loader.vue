@@ -15,11 +15,33 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="p-5">
+  <section class="p-5 min-vh-100">
     <div class="container-fluid">
-      <h1 class="text-center">WE STRAND-SEQ THE WORLD</h1>
+      <h1 class="text-center" id="loader-h1">WE STRAND-SEQ THE WORLD</h1>
       <div class="container-fluid">
         <div id="helix-container"></div>
+      </div>
+      <div class="container-md pt-5 pb-5">
+        <div class="row">
+          <div class="col-md">
+            <p class="text-center stats"><b>271</b></p>
+            <p class="text-center stats">Days Without Sunlight</p>
+          </div>
+          <div class="col-md">
+            <p class="text-center stats"><b>2371</b></p>
+            <p class="text-center stats">Single Cells Sequenced</p>
+          </div>
+          <div class="col-md">
+            <p class="text-center stats"><b>293</b></p>
+            <p class="text-center stats">Meetings</p>
+          </div>
+          <div class="col-md">
+            <p class="text-center stats">
+              <font-awesome-icon icon="fa-solid fa-star" />
+            </p>
+            <p class="text-center stats">Current Mood</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -29,8 +51,15 @@ section {
   background-color: #0f7e9d;
 }
 
-h1 {
+#loader-h1 {
   color: white;
+  font-size: 5rem;
+}
+
+.stats {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
 }
 
 #helix-container {
