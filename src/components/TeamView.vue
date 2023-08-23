@@ -18,6 +18,14 @@ const team = ref(teamData);
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
+          <button
+            type="button"
+            class="btn-close modal-close-button"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          >
+            <font-awesome-icon icon="fa-solid fa-xmark" class="modal-xmark" />
+          </button>
           <div class="row">
             <div class="col-auto">
               <img
@@ -35,17 +43,9 @@ const team = ref(teamData);
               </p>
             </div>
           </div>
-          <!-- <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          >
-            Close
-          </button> -->
         </div>
-        <div class="modal-content p-5 text-center">
-          <h3 class="mb-4">{{ member.headline }}</h3>
+        <div class="modal-content p-4">
+          <h2 class="mb-4 text-center">{{ member.headline }}</h2>
           <p>{{ member.text }}</p>
         </div>
       </div>
@@ -55,7 +55,9 @@ const team = ref(teamData);
     <div class="container-md pt-5 pb-5" id="team">
       <header class="headline-wrapper text-center">
         <h1>Team</h1>
-        <p class="lead"><i>The ones who run this laboratory</i></p>
+        <p class="lead undertitle-dk">
+          <i>The ones who run this laboratory</i>
+        </p>
       </header>
       <div class="container-fluid">
         <div class="row row-cols-auto g-3 justify-content-center">
@@ -68,14 +70,26 @@ const team = ref(teamData);
                 <img class="comic-pic" :src="member.comicImg" />
               </button>
               <h3 class="mt-3">{{ member.name }}</h3>
-              <p class="text-body-secondary">{{ member.title }}</p>
+              <p class="text-body-secondary undertitle-dk">
+                {{ member.title }}
+              </p>
               <p class="text-center mt-3 mb-1">
-                <a :href="member.mailAdress" class="p-2" v-if="member.mail"
+                <a
+                  :href="member.mailAdress"
+                  class="p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  v-if="member.mail"
                   ><font-awesome-icon
                     icon="fa-solid fa-envelope"
                     class="team-contact-icon"
                 /></a>
-                <a :href="member.orcidLink" class="p-2" v-if="member.orcid"
+                <a
+                  :href="member.orcidLink"
+                  class="p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  v-if="member.orcid"
                   ><font-awesome-icon
                     icon="fa-brands fa-orcid"
                     class="team-contact-icon"
@@ -83,6 +97,8 @@ const team = ref(teamData);
                 <a
                   :href="member.linkedInLink"
                   class="p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   v-if="member.linkedIn"
                   ><font-awesome-icon
                     icon="fa-brands fa-linkedin"
@@ -91,9 +107,21 @@ const team = ref(teamData);
                 <a
                   :href="member.researchGateLink"
                   class="p-2"
-                  v-if="researchGate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  v-if="member.researchGate"
                   ><font-awesome-icon
                     icon="fa-brands fa-researchgate"
+                    class="team-contact-icon"
+                /></a>
+                <a
+                  :href="member.gitHubLink"
+                  class="p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  v-if="member.gitHub"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-github"
                     class="team-contact-icon"
                 /></a>
               </p>
@@ -114,13 +142,9 @@ button {
   all: unset;
 }
 
-h1 {
-  _margin-block-start: none;
-  _margin-block-end: none;
-}
-
 .team-card {
   background-color: #fafbfb;
+  color: #183153 !important;
   border-radius: 5px;
 }
 
@@ -131,8 +155,7 @@ h1 {
 }
 .team-contact-icon {
   height: 2rem;
-  margin: 0.2rem;
-  color: #2588c5ed;
+  color: #183153;
 }
 .team-contact-icon:hover {
   color: #f4a460;
@@ -146,11 +169,32 @@ h1 {
 .modal-header {
   background-color: #118ab2;
   color: white;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-content {
+  color: #183153;
+  border-radius: 5px;
 }
 
 .photo {
   height: 10rem;
   border-radius: 50%;
-  _border: 5px solid grey;
+}
+
+.modal-xmark {
+  height: 2rem;
+  width: 2rem;
+}
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal-close-button:hover {
+  color: #183153;
 }
 </style>
