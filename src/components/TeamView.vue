@@ -109,9 +109,19 @@ const team = ref(teamData);
                   class="p-2"
                   target="_blank"
                   rel="noopener noreferrer"
-                  v-if="researchGate"
+                  v-if="member.researchGate"
                   ><font-awesome-icon
                     icon="fa-brands fa-researchgate"
+                    class="team-contact-icon"
+                /></a>
+                <a
+                  :href="member.gitHubLink"
+                  class="p-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  v-if="member.gitHub"
+                  ><font-awesome-icon
+                    icon="fa-brands fa-github"
                     class="team-contact-icon"
                 /></a>
               </p>
