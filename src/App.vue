@@ -12,7 +12,7 @@ import Publications from "./components/Publications.vue";
 import Gallery from "./components/Gallery.vue";
 import Loader from "./components/Loader.vue";
 
-const mouseActive = ref(false);
+const mouseActive = ref(true);
 
 function showNavbar() {
   this.mouseActive = true;
