@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from "vue";
+
 // import HelloWorld from "./components/HelloWorld.vue";
 import About from "./components/About.vue";
 import NavBar from "./components/NavBar.vue";
@@ -9,11 +11,17 @@ import Footer from "./components/Footer.vue";
 import Publications from "./components/Publications.vue";
 import Gallery from "./components/Gallery.vue";
 import Loader from "./components/Loader.vue";
+
+const mouseActive = ref(false);
+
+function showNavbar() {
+  this.mouseActive = true;
+}
 </script>
 
 <template>
-  <NavBar></NavBar>
-  <Loader></Loader>
+  <NavBar :is-nav-active="mouseActive"></NavBar>
+  <Loader @click.once="showNavbar()" @mousewheel.once="showNavbar()"></Loader>
   <!-- <Gallery></Gallery> -->
   <TeamView></TeamView>
   <About></About>
