@@ -1,5 +1,17 @@
+<script setup>
+import { ref } from "vue";
+
+defineProps({
+  isNavActive: Boolean,
+});
+</script>
+
 <template>
-  <div class="container-fluid sticky-top p-0">
+  <div
+    class="container-fluid sticky-top p-0"
+    v-if="isNavActive"
+    id="#nav-wrapper"
+  >
     <nav class="navbar navbar-expand-lg shadow-sm p-3">
       <a href="#" class="navbar-brand mb-0 align-items-center"
         ><img
@@ -107,6 +119,7 @@
 .navbar {
   _background-color: #3372b2;
   background-color: rgb(251, 251, 251);
+  animation: fadeIn 0.3s forwards;
 }
 
 .nav-icon {
@@ -138,5 +151,19 @@ a:hover {
 button {
   color: white !important;
   _color: black !important;
+}
+
+/* fade in for the navbar */
+#nav-wrapper {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>

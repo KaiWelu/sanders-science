@@ -136,6 +136,7 @@ const team = ref(teamData);
 <style scoped>
 section {
   background-color: rgb(255, 255, 255);
+  _background-color: #0f7e9d;
 }
 
 button {

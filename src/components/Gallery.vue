@@ -128,6 +128,5 @@ section {
 
 .stats {
   font-size: 2rem;
-  _font-family: "Rubik", sans-serif;
 }
 </style>
